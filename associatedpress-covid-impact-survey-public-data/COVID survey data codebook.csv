@@ -1,0 +1,852 @@
+Variable,Variable Label,Value,Value Label
+P_PANEL,Sample type,1,ABS
+,,2,Amerispeak
+NATIONAL_WEIGHT,Weight used for national sample (P_PANEL=2 cases). Normalized weight (n=sample size).,N/A,N/A
+REGION_WEIGHT,Weight used for regional samples. Normalized weight (n=sample size).,N/A,N/A
+NATIONA_WEIGHT_POP,Weight used for national sample (P_PANEL=2 cases). Population weight (n=population size).,N/A,N/A
+REGION_WEIGHT_POP,Weight used for regional samples. Population weight (n=population size).,N/A,N/A
+P_GEO,Geographic area (State and MSA),1,(1) California
+,,2,(2) Colorado
+,,3,(3) Florida
+,,4,(4) Louisiana
+,,5,(5) Minnesota
+,,6,(6) Missouri
+,,7,(7) Montana
+,,8,(8) New York
+,,9,(9) Oregon
+,,10,(10) Texas
+,,11,"(11) Atlanta-Sandy Springs-Alpharetta, Georgia"
+,,12,"(12) Baltimore-Columbia-Towson, Maryland"
+,,13,"(13) Birmingham-Hoover, Alabama"
+,,14,"(14) Chicago-Naperville-Elgin, Illinois-Indiana-Wisconsin"
+,,15,"(15) Cleveland-Elyria, Ohio"
+,,16,"(16) Columbus, Ohio"
+,,17,"(17) Phoenix-Mesa-Chandler, Arizona"
+,,18,"(18) Pittsburgh, Pennsylvania"
+SOC1,"Generally speaking, would you say that you can trust all the people, most of the people, some of the people, or none of the people in your neighborhood?",1,(1) All
+,,2,(2) Most
+,,3,(3) Some
+,,4,(4) None
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC2A,"In the past month, how often did you talk with any of your neighbors?",1,(1) Basically every day
+,,2,(2) A few times a week
+,,3,(3) A few times a month
+,,4,(4) Once a month
+,,5,(5) Not at all
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC2B,"During a typical month prior to March 1, 2020, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors?",1,(1) Basically every day
+,,2,(2) A few times a week
+,,3,(3) A few times a month
+,,4,(4) Once a month
+,,5,(5) Not at all
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC3A,"In the past month, how often did you communicate with friends and family by phone, text, email, app, or using the Internet?",1,(1) Basically every day
+,,2,(2) A few times a week
+,,3,(3) A few times a month
+,,4,(4) Once a month
+,,5,(5) Not at all
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC3B,"During a typical month prior to March 1, 2020, when COVID-19 began spreading in the United States, how often did you communicate with friends and family by phone, text, email, app, or using the Internet?",1,(1) Basically every day
+,,2,(2) A few times a week
+,,3,(3) A few times a month
+,,4,(4) Once a month
+,,5,(5) Not at all
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC4A,"In the past month, did you spend any time volunteering for any organization or association, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC4B,"During a typical month prior to March 1, 2020, when COVID-19 began spreading in the United States, did you spend any time volunteering for any organization or association, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS8,"Would you say your health in general is excellent, very good, good, fair, or poor?",1,(1) Excellent
+,,2,(2) Very good
+,,3,(3) Good
+,,4,(4) Fair
+,,5,(5) Poor
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1A,"[Fever] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1B,"[Chills] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1C,"[Runny or stuffy nose] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1D,"[Chest congestion] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1E,"[Skin rash] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1F,"[Cough] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1G,"[Sore throat] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1H,"[Sneezing] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1I,"[Muscle or body aches] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1J,"[Headaches] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1K,"[Fatigue or tiredness] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1L,"[Shortness of breath] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1M,"[Abdominal discomfort] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1N,"[Nausea or vomiting] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1O,"[Diarrhea] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1P,"[Changed or lost sense of taste or smell] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS1Q,"[Loss of appetite] Have you experienced any of the following symptoms in the past 7 days, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC5A,"[Felt nervous, anxious, or on edge] In the past 7 days, how often have you?",1,(1) Not at all or less than 1 day
+,,2,(2) 1-2 days
+,,3,(3) 3-4 days
+,,4,(4) 5-7 days
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC5B,"[Felt depressed] In the past 7 days, how often have you?",1,(1) Not at all or less than 1 day
+,,2,(2) 1-2 days
+,,3,(3) 3-4 days
+,,4,(4) 5-7 days
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC5C,"[Felt lonely] In the past 7 days, how often have you?",1,(1) Not at all or less than 1 day
+,,2,(2) 1-2 days
+,,3,(3) 3-4 days
+,,4,(4) 5-7 days
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC5D,"[Felt hopeless about the future] In the past 7 days, how often have you?",1,(1) Not at all or less than 1 day
+,,2,(2) 1-2 days
+,,3,(3) 3-4 days
+,,4,(4) 5-7 days
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+SOC5E,"[Had physical reactions such as sweating, trouble breathing, nausea or a pounding heart when thinking about your experience with the coronavirus pandemic] In the past 7 days, how often have you?",1,(1) Not at all or less than 1 day
+,,2,(2) 1-2 days
+,,3,(3) 3-4 days
+,,4,(4) 5-7 days
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS2_1,"[Canceled a doctor appointment] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_2,"[Worn a face mask] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_3,"[Visited a doctor or hospital] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_4,"[Canceled or postponed work activities] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_5,"[Canceled or postponed school activities] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_6,"[Canceled or postponed dentist or other appointment] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_7,"[Canceled outside housekeepers or caregivers] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_8,"[Avoided some or all restaurants] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_9,"[Worked from home] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_10,"[Studied from home] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_11,"[Canceled or postponed pleasure, social, or recreational activites] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_12,"[Stockpiled food or water] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_13,"[Avoided public or crowded places] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_14,"[Prayed] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_15,"[Avoided contact with high-risk people] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_16,"[Washed or sanitized hands] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_17,"[Kept six feet distance from those outside my household] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_18,"[Stayed home because I felt unwell] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_19,"[Wiped packages entering my home] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_DK,"[DON'T KNOW] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_SKP,"[SKIPPED ON WEB] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS2_REF,"[REFUSED] Which of the following measures, if any, are you taking in response to the coronavirus?",0,(0) No
+,,1,(1) Yes
+PHYS10A,"[Installing an app on your phone that asks you questions about your own symptoms and provides recommendations about COVID-19] If these options were available to you, how likely would you be to participate in them?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,88,(88) Already done this
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS10B,"[Installing an app on your phone that tracks your location and sends push notifications if you might have been exposed to COVID-19] If these options were available to you, how likely would you be to participate in them?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,88,(88) Already done this
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS10C,"[Using a website to log your symptoms and location and get recommendations about COVID-19] If these options were available to you, how likely would you be to participate in them?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,88,(88) Already done this
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS10D,"[Testing you for COVID-19 infection using a q-tip to swab your cheek or nose] If these options were available to you, how likely would you be to participate in them?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,88,(88) Already done this
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS10E,"[Testing you for immunity or resistance to COVID-19 by drawing a small amount of blood] If these options were available to you, how likely would you be to participate in them?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,88,(88) Already done this
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8A,"[K-12 school closure] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8B,"[Pre-K or child care closure] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8C,"[College or training closure] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8D,"[Ban on gatherings of 250 people or more] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8E,"[Ban on gatherings of 50 people or more] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8F,"[Ban on gatherings of 10 people or more] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8G,"[Closure of place of worship] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8H,"[Reduced public transportation] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8I,"[Other reduced public services] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8J,"[Closure of bars] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8K,"[Closure of restaurants] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8L,"[Closure of gyms or fitness facilities] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8M,"[Closure of other businesses] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8N,"[Canceled sport events] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8O,"[Closure of work] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8P,"[Work from home requirements] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8Q,"[Quarantine requirements or stay-at-home orders] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8R,"[International travel restrictions or bans] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON8S,"[Domestic travel restrictions or bans] In the past 7 days, have your personal plans been changed or affected by the following types of restrictions, or not?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON7_1,"[Put it on my credit card and pay it off in full at the next statement] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_2,"[Put it on my credit card and pay it off over time] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_3,"[Use money currently in my checking or savings account or with cash] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_4,"[Use money from a bank loan or line of credit] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_5,"[Borrow from a friend or family member] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_6,"[Use a payday loan, deposit advance or overdraft] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_7,"[Sell something] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_8,"[I would not be able to pay for it right now] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_DK,"[DON'T KNOW] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_SKP,"[SKIPPED ON WEB] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON7_REF,"[REFUSED] Based on your current financial situation, how would you pay for this expense?",0,(0) No
+,,1,(1) Yes
+ECON1,"In the past 7 days, did you do any work for pay at a job or business?",1,"(1) Yes, I worked for someone else for wages, salary, piece"
+,,2,"(2) Yes, I worked as self-employed in my own business, profe"
+,,3,"(3) No, I did not work for pay last week."
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON2,How many hours did you work last week at all jobs?,777,(777) DON'T KNOW
+,,998,(998) SKIPPED ON WEB
+,,999,(999) REFUSED
+ECON4,What was your main reason for not working for pay?,1,(1) I do not want to be employed at this time
+,,2,(2) I am retired
+,,3,(3) I was laid-off temporarily or furloughed
+,,4,(4) I was not at my usual jobs because I was caring for chil
+,,5,(5) I was not at my usual jobs because I was caring for an e
+,,6,(6) I was not at my usual jobs because I was caring for some
+,,7,(7) I was not at my usual jobs because I was recovering from
+,,8,(8) I was unemployed but looking for work since before March
+,,9,(9) I was unemployed and began looking for work after March
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON3,"Prior to March 1, 2020 when COVID-19 began spreading in the United States, how many hours did you usually work each week?",777,(777) DON'T KNOW
+,,998,(998) SKIPPED ON WEB
+,,999,(999) REFUSED
+ECON4A,"Think about 30 days from now, how likely do you think it is that you will be employed at that time?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON4B,"Think about 3 months from now, how likely do you think it is that you will be employed at that time?",1,(1) Extremely likely
+,,2,(2) Very likely
+,,3,(3) Moderately likely
+,,4,(4) Not too likely
+,,5,(5) Not likely at all
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6A,"[Unemployment insurance] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6B,"[SNAP (Supplemental Nutrition Assistance Program)] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6C,"[TANF (Temporary Assistance for Needy Families)] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6D,"[Social Security] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6E,"[Supplemental Social Security] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6F,"[Any kind of government health insurance or health coverage plan including Medicaid, Medical Assistance or Medicare] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or no",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6G,"[Other aid from the government] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6H,"[Assistance from a union or other association] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6I,"[Assistance from a church or religious organization] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6J,"[Assistance from another community organization] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6K,"[A food pantry] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON6L,"[Other assistance] In the past 7 days, have you either received, applied for, or tried to apply for any of the following forms of income or assistance, or not?",1,(1) Received
+,,2,(2) Applied for
+,,3,(3) Tried to apply for
+,,4,(4) Did not receive nor apply for any
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON5A_A,"[We worried our food would run out before we got money to buy more] Please indicate whether the following statements were often true, sometimes true, or never true for you or your household over the past 30 days.",1,(1) Often true
+,,2,(2) Sometimes true
+,,3,(3) Never true
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+ECON5A_B,"[The food that we bought just didn't last, and we didn't have money to get more] Please indicate whether the following statements were often true, sometimes true, or never true for you or your household over the past 30 days.",1,(1) Often true
+,,2,(2) Sometimes true
+,,3,(3) Never true
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS7_1,[Felt hot or feverish] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_2,[Felt chilly or cold or had chills] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_3,[Been sweating more than usual] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_4,[Have not felt any of these] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_DK,[DON'T KNOW] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_SKP,[SKIPPED ON WEB] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS7_REF,[REFUSED] Please indicate if you have felt any of the following in the past 7 days.,0,(0) No
+,,1,(1) Yes
+PHYS11,Can you use a thermometer to take your temperature now?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS11_TEMP,Can you use a thermometer to take your temperature now? [Recorded temperature],777,(777) DON'T KNOW
+,,888,(888) OUT OF RANGE
+,,998,(998) SKIPPED ON WEB
+,,999,(999) REFUSED
+PHYS9A,[Insurance through a current or former employer or union of yours or another family member] Are you currently covered by any of the following types of health insurance or health coverage plans?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9B,[Insurance purchased directly from an insurance company by you or another family member] Are you currently covered by any of the following types of health insurance or health coverage plans?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9C,[TRICARE or other military health care] Are you currently covered by any of the following types of health insurance or health coverage plans?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9D,"[Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disability] Are you currently covered by any of the following types of health insurance or health coverage plans?",1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9E,"[Medicare, for people 65 and older, or people with certain disabilities] Are you currently covered by any of the following types of health insurance or health coverage plans?",1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9F,"[The Veteran's Administration, meaning you are currently enrolled for VA health care] Are you currently covered by any of the following types of health insurance or health coverage plans?",1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9G,[Indian Health Service] Are you currently covered by any of the following types of health insurance or health coverage plans?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS9H,[Other health insurance or health coverage plan] Are you currently covered by any of the following types of health insurance or health coverage plans?,1,(1) Yes
+,,2,(2) No
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3A,[Diabetes] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3B,[High blood pressure or hypertension] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3C,"[Heart disease, heart attack or stroke] Has a doctor or other health care provider ever told you you have any of the following?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3D,[Asthma] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3E,[Chronic lung disease or COPD] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3F,[Bronchitis or emphysema] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3G,[Allergies] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3H,[A mental health condition] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3I,[Cystic fibrosis] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3J,[Liver disease or end stage liver disease] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3K,[Cancer] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3L,[A compromised immune system] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS3M,[Overweight or obesity] Has a doctor or other health care provider ever told you you have any of the following?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS4,Has a doctor or other health care provider ever told you that you have COVID-19?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS5,Has a doctor or other health care provider ever told someone you live with that they have COVID-19?,1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+PHYS6,"Have you had a family member or close friend die from COVID-19 or respiratory illness since March 1, 2020?",1,(1) Yes
+,,2,(2) No
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+AGE4,Age: 4 category,1,(1) 18-29
+,,2,(2) 30-44
+,,3,(3) 45-59
+,,4,(4) 60+
+,,99,(99) Under 18
+AGE7,Age: 7 category,1,(1) 18-24
+,,2,(2) 25-34
+,,3,(3) 35-44
+,,4,(4) 45-54
+,,5,(5) 55-64
+,,6,(6) 65-74
+,,7,(7) 75+
+,,99,(99) Under 18
+GENDER,Are you male or female,0,(0) Unknown
+,,1,(1) Male
+,,2,(2) Female
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+RACETH,Race/ethnicity,1,"(1) White, non-Hispanic"
+,,2,"(2) Black, non-Hispanic"
+,,3,(3) Hispanic
+,,4,"(4) Other, non-Hispanic"
+,,77,(77) DON'T KNOW
+,,88,(88) Removed for disclosure risk
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+RACE_R2,Race/ethnicity: White/nonwhite,1,(1) White non-Hispanic
+,,2,(2) Nonwhite
+,,77,(77) DONT KNOW
+,,88,(88) Removed for disclosure risk
+,,98,(98) SKIPPED ON WEB
+,,99,(99)REFUSED
+HHINCOME,Household income,1,"Under $10,000"
+,,2,"$10,000 to under $20,000"
+,,3,"$20,000 to under $30,000"
+,,4,"$30,000 to under $40,000"
+,,5,"$40,000 to under $50,000"
+,,6,"$50,000 to under $75,000"
+,,7,"$75,000 to under $100,000"
+,,8,"$100,000 to under $150,000"
+,,9,"$150,000 or more"
+,,77,DON'T KNOW
+,,98,SKIPPED ON WEB
+,,99,REFUSED
+EDUCATION,What is the highest level of school you have completed?,1,(1) No HS diploma
+,,2,(2) HIGH SCHOOL GRADUATE - high school DIPLOMA or the equiva
+,,3,"(3) Some college, no degree"
+,,4,(4) Associate degree
+,,5,(5) Bachelors degree
+,,6,(6) Masters degree
+,,7,(7) Professional or Doctorate degree
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+EDUC4,Education: 4 categories,1,(1) No HS diploma
+,,2,(2) HS graduate or equivalent
+,,3,(3) Some college
+,,4,(4) BA or above
+,,77,(77) Not sure
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+P_OCCUPY2,Occupation (AmeriSpeak sample only),1,"(1) Arts, Design, Entertainment, Sports, and Media Occupatio"
+,,2,(2) Community and Social Service Occupations
+,,3,(3) Healthcare Support Occupations
+,,4,"(4) Installation, Maintenance, and Repair Occupations"
+,,5,(5) Architecture and Engineering Occupations
+,,6,(6) Construction and Extraction Occupations
+,,7,(7) Production Occupations
+,,8,(8) Building and Grounds Cleaning and Maintenance Occupation
+,,9,(9) Healthcare Practitioners and Technical Occupations
+,,10,"(10) Life, Physical, and Social Science Occupations"
+,,11,(11) Protective Service Occupations
+,,12,(12) Personal Care and Service Occupations
+,,13,(13) Computer and Mathematical Occupations
+,,14,(14) Sales and Related Occupations
+,,15,"(15) Education, Training, and Library Occupations"
+,,16,(16) Office and Administrative Support Occupations
+,,17,(17) Food Preparation and Serving Related Occupations
+,,18,(18) Legal Occupations
+,,19,"(19) Farming, Fishing, and Forestry Occupations"
+,,20,(20) Business and Financial Operations Occupations
+,,21,(21) Management Occupations
+,,22,(22) Transportation and Material Moving Occupations
+,,23,(23) Military Specific Occupations
+,,24,(24) Other (please specify)
+,,25,(25) Have never worked
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HHSIZE1,Household size (including children),1,"(1) One person, I live by myself"
+,,2,(2) Two persons
+,,3,(3) Three persons
+,,4,(4) Four persons
+,,5,(5) Five persons
+,,6,(6) Six or more persons
+,,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HH01S,Number of HH members age 0-1,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HH25S,Number of HH members age 2-5,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HH612S,Number of HH members age 6-12,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HH1317S,Number of HH members age 13-17,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+HH18OVS,Number of HH members age 18+,77,(77) DON'T KNOW
+,,98,(98) SKIPPED ON WEB
+,,99,(99) REFUSED
+REGION4,Census region: 4 category,1,(1) Northeast
+,,2,(2) Midwest
+,,3,(3) South
+,,4,(4) West
+REGION9,Census region: 9 category,1,(1) New England
+,,2,(2) Mid-Atlantic
+,,3,(3) East North Central
+,,4,(4) West North Central
+,,5,(5) South Atlantic
+,,6,(6) East South Central
+,,7,(7) West South Central
+,,8,(8) Mountain
+,,9,(9) Pacific
+P_DENSE,"Population density - Rural, suburban, or urban",1,(1) Rural
+,,2,(2) Suburban
+,,3,(3) Urban
+MODE,Mode,1,(1) Phone interview
+,,2,(2) Web Interview
+LANGUAGE,Language,1,(1) English
+,,2,(2) Spanish
+MAIL50,Date mail scanned at least 50% in region,1,(1) 4/20/2020
+,,2,(2) 4/21/2020
+,,3,(3) 4/22/2020
+,,4,(4) 4/23/2020
+RACE1_BANNER,Banner: RACE1,1,(1) NH white 5
+,,2,(2) NH black 5
+,,3,(3) Hispanic 5
+,,4,(4) NH Asian 5
+,,5,(5) NH Other 5
+,,88,(88) Removed for disclosure risk
+RACE2_BANNER,Banner: RACE2,1,(1) NH white
+,,2,(2) NH black
+,,3,(3) Hispanic
+,,4,(4) NH AIAN + PI
+,,5,(5) NH Chinese
+,,6,(6) NH Asian Indian
+,,7,(7) NH Filipino + Vietnamese
+,,8,(8) NH Japanese + Korean
+,,9,(9) NH Other
+INC_BANNER,Banner: INCOME,1,"(1) Less than $30,000"
+,,2,(2) $30k to less than $60k
+,,3,(3) $60k to less than $125k
+,,4,(4) More than $125k
+AGE_BANNER,Banner: AGE,1,(1) 18-22
+,,2,(2) 23-64
+,,3,(3) 65+
+HH_BANNER,Banner: HH STRUCTURE,1,(1) Alone
+,,2,(2) +1 other adult only
+,,3,(3) 1 or 2 kids
+,,4,(4) 3 or more kids
+,,5,(5) Other
