@@ -3,10 +3,11 @@
 """
 Created on Fri Dec 13 13:13:11 2024
 
-@author: kaiyrbekovk2
+@author: kurmanbek
 """
 import pandas as pd
 import json
+import copy
 
 
 codebook_file = './associatedpress-covid-impact-survey-public-data/COVID survey data codebook.csv'
@@ -17,29 +18,43 @@ codebook_file = './associatedpress-covid-impact-survey-public-data/COVID survey 
 class QA():
     def __init__(self, question):
         self.question = question
-        self.answers = {}
-    def set_answers(self, answer, description):
-        self.answers[answer] = description
-    def get_answer(self, answer_id):
-        return self.answers[answer_id]
+        self.response_id_to_text = {}
+        self.response_text_to_id = {}
+    def set_answers(self, response_id, response_text):
+        self.response_id_to_text[response_id] = response_text
+        
+        self.response_text_to_id[response_text] = response_id
+        
+    def get_response_text(self, response_id):
+        if response_id not in self.response_id_to_text:
+            print("Response might be numeric, so returning original input")
+            return response_id
+        return self.response_id_to_text[response_id]
+    
+    def get_response_id(self, response_text):
+        return int( self.response_text_to_id[response_text])
+
     def get_question(self):
         return self.question
     def __str__(self):
         str_rep = 'Question: ' + self.question + '\n' + 'Answer options:'
-        for key in sorted(self.answers):
+        for key in sorted(self.response_id_to_text):
             #option = '%g %s' %(key, self.answers[key])
-            str_rep  += '\n' + str(self.answers[key])
+            str_rep  += '\n' + str(self.response_id_to_text[key])
         return str_rep
     
     def to_json_dictionary(self):
         json_dict = {}
         json_dict["question"] = self.question
-        json_dict["answer_to_answer_id"] = {}
-        for asnwer_id, answer_text in self.answers.items():
+        json_dict["clean_response_text_to_id"] = {}
+        json_dict["response_id_to_text"] = copy.copy(self.response_id_to_text)
+        for answer_id, answer_text in self.response_id_to_text.items():
             #print(answer_text)
             #answer_text.index(')')
-            text = answer_text[answer_text.index(')')+1:].strip()
-            json_dict["answer_to_answer_id"][text] = asnwer_id
+            text = answer_text.strip()
+            if ')' in answer_text:
+                text = answer_text[answer_text.index(')')+1:].strip()
+            json_dict["clean_response_text_to_id"][text] = answer_id
         return json_dict
 
     
@@ -102,5 +117,6 @@ def codebook_to_json(codebook, codebook_file_name = 'codebook.json'):
 
 if __name__ == '__main__':
     codebook = get_codebook()
-    print(codebook['SOC1'].answers)
-    print(codebook['SOC1'].to_json_dictionary())
+    print(codebook['HHINCOME'].response_id_to_text)
+    print(codebook['HHINCOME'].to_json_dictionary())
+    print(codebook['SOC1'].get_response_id('(4) None'))
