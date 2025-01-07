@@ -36,6 +36,16 @@ class QA():
 
     def get_question(self):
         return self.question
+    def set_question(self, question):
+        self.question = question
+    
+    def remove_web_options(self):
+        for response_id in list(self.response_id_to_text.keys()):
+            response_text = self.response_id_to_text[response_id]
+            if 'web' in response_text.lower():
+                del self.response_id_to_text[response_id]
+                del self.response_text_to_id[response_text]
+            
     def __str__(self):
         str_rep = 'Question: ' + self.question + '\n' + 'Answer options:'
         for key in sorted(self.response_id_to_text):
@@ -43,11 +53,11 @@ class QA():
             str_rep  += '\n' + str(self.response_id_to_text[key])
         return str_rep
     
-    def to_json_dictionary(self):
+    def to_json_dictionary(self, remove_web_options = True):
         json_dict = {}
         json_dict["question"] = self.question
         json_dict["clean_response_text_to_id"] = {}
-        json_dict["response_id_to_text"] = copy.copy(self.response_id_to_text)
+        json_dict["response_id_to_text"] = copy.deepcopy(self.response_id_to_text)
         for answer_id, answer_text in self.response_id_to_text.items():
             #print(answer_text)
             #answer_text.index(')')
@@ -99,9 +109,12 @@ def get_codebook_subset(codebook, codes):
         new_codebook[code] = codebook[code]
     return new_codebook
 
-def codebook_to_json(codebook, codebook_file_name = 'codebook.json'):
+def codebook_to_json(codebook, codebook_file_name = 'codebook.json', remove_web_options = True):
     cb_json = {}
     for code, info in codebook.items():
+        if remove_web_options:
+            codebook[code].remove_web_options()
+        
         cb_json[code] = codebook[code].to_json_dictionary()
         
     with open(codebook_file_name, "w") as f:
