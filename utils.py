@@ -6,6 +6,7 @@ Created on Fri Dec 13 13:13:11 2024
 @author: kurmanbek
 """
 import pandas as pd
+import numpy as np
 import json
 import copy
 
@@ -20,10 +21,32 @@ class QA():
         self.question = question
         self.response_id_to_text = {}
         self.response_text_to_id = {}
-    def set_answers(self, response_id, response_text):
-        self.response_id_to_text[response_id] = response_text
         
+   
+    def set_answers(self, response_id, response_text):
+        response_text = self.clean_text(response_text)
+        
+        self.response_id_to_text[response_id] = response_text
         self.response_text_to_id[response_text] = response_id
+        
+    def clear_response_mappings(self):
+        self.response_id_to_text = {}
+        self.response_text_to_id = {}
+        
+    def remove_response(self, response_text):
+        response_id = self.response_text_to_id[response_text]
+        del self.response_text_to_id[response_text]
+        del self.response_id_to_text[response_id]
+        
+    def get_response_list(self):
+        options = list(self.response_text_to_id.keys())
+        return [self.clean_text(option) for option in options]
+    
+    def clean_text(self, text):
+        if  isinstance(text, str) and ')' in text:
+            text = text[text.index(')')+1:].strip()
+        return text
+        
         
     def get_response_text(self, response_id):
         if response_id not in self.response_id_to_text:
@@ -32,7 +55,7 @@ class QA():
         return self.response_id_to_text[response_id]
     
     def get_response_id(self, response_text):
-        return int( self.response_text_to_id[response_text])
+        return int(self.response_text_to_id[response_text])
 
     def get_question(self):
         return self.question
@@ -45,6 +68,12 @@ class QA():
             if 'web' in response_text.lower():
                 del self.response_id_to_text[response_id]
                 del self.response_text_to_id[response_text]
+                
+    def get_clean_response_text(self, response_id):
+        text = self.response_id_to_text[response_id]
+        if ')' in text:
+            text = text[text.index(')')+1:].strip()
+        return text
             
     def __str__(self):
         str_rep = 'Question: ' + self.question + '\n' + 'Answer options:'
@@ -119,6 +148,20 @@ def codebook_to_json(codebook, codebook_file_name = 'codebook.json', remove_web_
         
     with open(codebook_file_name, "w") as f:
         f.write(json.dumps(cb_json))
+        
+        
+        
+def get_survey_questionnaire(codebook):
+    qa_list = []
+    question_count = 1
+    for code, content in codebook.items():  
+        question = content.get_question()
+        qa_list.append(f"Question {question_count}: {question}\nResponse Options: ")
+        ans_list = content.get_response_list()
+        qa_list.append('; '.join(ans_list))
+        qa_list.append("\n")
+        question_count += 1
+    return ''.join(qa_list)
 
 
 #questions = get_questions_list(codebook, ['SOC1',	'SOC2A', 'SOC2B', 'SOC3A',	'SOC3B',	'SOC4A',	'SOC4B',	'PHYS8',	'PHYS1A',	'PHYS1B'])
@@ -132,4 +175,4 @@ if __name__ == '__main__':
     codebook = get_codebook()
     print(codebook['HHINCOME'].response_id_to_text)
     print(codebook['HHINCOME'].to_json_dictionary())
-    print(codebook['SOC1'].get_response_id('(4) None'))
+    print(codebook['SOC1'].get_response_id('None'))
