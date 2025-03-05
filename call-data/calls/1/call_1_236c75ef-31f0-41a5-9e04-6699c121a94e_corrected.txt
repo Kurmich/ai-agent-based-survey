@@ -19,16 +19,16 @@ user: Hello? Is someone speaking there?
  assistant: So there's just one person in your household, that's you. How many persons currently living in your household, including yourself, are zero to one years old? 
  user: 0 to 1 years, they're like nobody. I'm the only one living there, and I'm I'm 80 years old. 
  assistant: That's correct, there's no one zero to one years old in your household. How many persons currently living in your household, including yourself, are two to five years old? 
- user: Nobody that's fixed very similar to the question you just asked me. 
+ user: Nobody that's very similar to the question you just asked me. 
  assistant: Okay, so there's no one two to five years old in your household either. How many persons currently living in your household, including yourself, are six to twelve years old? 
- user: Also, nobody because it shows one person and the line years old. 
+ user: Also, nobody because it shows one person and I'm 80 years old. 
  assistant: Alright, so there's no one six to twelve years old in your household. How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
  user: Also, nobody. Could we maybe go on to the next question It's just me, and I'm 80 years. 
  assistant: I understand, thank you for letting me know. Since you're the only person in your household and you're eighty years old, that means there's one person in your household who is eighteen years or older, and that's you. In the past month, how often did you talk with any of your neighbors? 
  user: Well, I'm not sure if you got it right. So I'm not 18 years old, but I'm 8 
  user: years old. <Cannot be interrupted, user message ignored> 
  assistant: I think there might be some confusion, you mentioned earlier that you're eighty years old, not eight. Could you please clarify your age? 
- user: An 80. So 80. 
+ user: I'm 80. So 80. 
  assistant: Okay, I've got it confirmed, you are indeed eighty years old. To answer my previous question, in the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: I would say, like, a few times a month. 
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
@@ -36,14 +36,14 @@ user: Hello? Is someone speaking there?
  assistant: Right, so before the COVID-19 pandemic. How often did you talk with your neighbors during that time? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: Are talking about right now. <Cannot be interrupted, user message ignored> 
  user: Yeah. <Cannot be interrupted, user message ignored> 
- user: It's a as you a few times a month, I would say. 
+ user: It's a few times a month, I would say. 
  assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
  user: Maybe just a couple of times. So not not too much. 
  assistant: So you've felt nervous, anxious, or on edge for about two days in the past seven days. How often have you felt depressed in the past seven days? Please provide your answer in number of days. 
  user: Maybe <Cannot be interrupted, user message ignored> 
  user: 1 or 2 days, maybe. 
  assistant: Okay, so one or two days of feeling depressed in the past seven days. How often have you felt lonely in the past seven days? Please provide your answer in number of days. 
- user: Also, 102. 
+ user: Also, 1 or 2. 
  assistant: I think there might be some confusion, it's not possible to feel lonely for 102 days in a 7-day period. Could you please provide a more accurate answer, such as zero, one, two, or some other number of days? 
  user: 1. 
  assistant: Okay, so you've felt lonely for one day in the past seven days. How often have you felt hopeless about the future in the past seven days? Please provide your answer in number of days. 
@@ -57,14 +57,14 @@ user: Hello? Is someone speaking there?
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
  user: Yeah. No. Some no. No. 
  assistant: Okay, so to confirm, a doctor or healthcare provider has never told you that you have COVID-19. Has a doctor or other healthcare provider ever told someone you live with that they have COVID-19? 
- user: I'm just living on my own so that a no here. 
+ user: I'm just living on my own so that's a no here. 
  assistant: That's right, you live alone. Have you experienced chills in the past seven days, or not? 
- user: No. Chilton. No. 
+ user: No. Chill. No. 
  assistant: Okay, so you haven't experienced chills in the past seven days. Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: Not at all. Not chills. <Cannot be interrupted, user message ignored> 
  user: No. Not really. Like, I got a little bit of a cough, but no runny nose. 
  assistant: Okay, so you haven't had a runny or stuffy nose, but you have had a bit of a cough. Have you experienced chest congestion in the past seven days, or not? 
- user: Yeah. Awesome. But it's just a bit 
+ user: Yeah. Also. But it's just a bit 
  assistant: Okay, so you've had a bit of chest congestion. Have you experienced a skin rash in the past seven days, or not? 
  user: No. 
  assistant: You mentioned earlier that you've had a bit of a cough. To confirm, have you experienced a cough in the past seven days, or not? 
