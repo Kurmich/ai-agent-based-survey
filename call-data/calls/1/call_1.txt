@@ -1,0 +1,86 @@
+user: Hello? Is someone speaking there? 
+ assistant: Hello! My name is Sarah, and I’m conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Yes. I have I have a few minutes. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: So I'm 80 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: Yeah. I'm a I'm a male. 
+ assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: Okay. 
+ assistant: I apologize, you didn't answer the question. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: So I'm I'm Asian Indian, I would say. <Cannot be interrupted, user message ignored> 
+ user: Asian Indian. 
+ assistant: What was your total household income in two thousand nineteen? 
+ user: So I earned 36,000 a year. 
+ assistant: What is the highest level of school you have completed? 
+ user: So so right now, I'm on the associate level. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ user: Yeah. So I'm I'm just living on my own here. 
+ assistant: So there's just one person in your household, that's you. How many persons currently living in your household, including yourself, are zero to one years old? 
+ user: 0 to 1 years, they're like nobody. I'm the only one living there, and I'm I'm 80 years old. 
+ assistant: That's correct, there's no one zero to one years old in your household. How many persons currently living in your household, including yourself, are two to five years old? 
+ user: Nobody that's fixed very similar to the question you just asked me. 
+ assistant: Okay, so there's no one two to five years old in your household either. How many persons currently living in your household, including yourself, are six to twelve years old? 
+ user: Also, nobody because it shows one person and the line years old. 
+ assistant: Alright, so there's no one six to twelve years old in your household. How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
+ user: Also, nobody. Could we maybe go on to the next question It's just me, and I'm 80 years. 
+ assistant: I understand, thank you for letting me know. Since you're the only person in your household and you're eighty years old, that means there's one person in your household who is eighteen years or older, and that's you. In the past month, how often did you talk with any of your neighbors? 
+ user: Well, I'm not sure if you got it right. So I'm not 18 years old, but I'm 8 
+ user: years old. <Cannot be interrupted, user message ignored> 
+ assistant: I think there might be some confusion, you mentioned earlier that you're eighty years old, not eight. Could you please clarify your age? 
+ user: An 80. So 80. 
+ assistant: Okay, I've got it confirmed, you are indeed eighty years old. To answer my previous question, in the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: I would say, like, a few times a month. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: It's before COVID. 
+ assistant: Right, so before the COVID-19 pandemic. How often did you talk with your neighbors during that time? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Are talking about right now. <Cannot be interrupted, user message ignored> 
+ user: Yeah. <Cannot be interrupted, user message ignored> 
+ user: It's a as you a few times a month, I would say. 
+ assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: Maybe just a couple of times. So not not too much. 
+ assistant: So you've felt nervous, anxious, or on edge for about two days in the past seven days. How often have you felt depressed in the past seven days? Please provide your answer in number of days. 
+ user: Maybe <Cannot be interrupted, user message ignored> 
+ user: 1 or 2 days, maybe. 
+ assistant: Okay, so one or two days of feeling depressed in the past seven days. How often have you felt lonely in the past seven days? Please provide your answer in number of days. 
+ user: Also, 102. 
+ assistant: I think there might be some confusion, it's not possible to feel lonely for 102 days in a 7-day period. Could you please provide a more accurate answer, such as zero, one, two, or some other number of days? 
+ user: 1. 
+ assistant: Okay, so you've felt lonely for one day in the past seven days. How often have you felt hopeless about the future in the past seven days? Please provide your answer in number of days. 
+ user: Also, one day, 
+ assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: 1. 
+ assistant: Okay, so you've had physical reactions for one day in the past seven days. In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: I'm working a little bit. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: It's excellent, I would say. So I don't have any big concerns. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: Yeah. No. Some no. No. 
+ assistant: Okay, so to confirm, a doctor or healthcare provider has never told you that you have COVID-19. Has a doctor or other healthcare provider ever told someone you live with that they have COVID-19? 
+ user: I'm just living on my own so that a no here. 
+ assistant: That's right, you live alone. Have you experienced chills in the past seven days, or not? 
+ user: No. Chilton. No. 
+ assistant: Okay, so you haven't experienced chills in the past seven days. Have you experienced a runny or stuffy nose in the past seven days, or not? 
+ user: Not at all. Not chills. <Cannot be interrupted, user message ignored> 
+ user: No. Not really. Like, I got a little bit of a cough, but no runny nose. 
+ assistant: Okay, so you haven't had a runny or stuffy nose, but you have had a bit of a cough. Have you experienced chest congestion in the past seven days, or not? 
+ user: Yeah. Awesome. But it's just a bit 
+ assistant: Okay, so you've had a bit of chest congestion. Have you experienced a skin rash in the past seven days, or not? 
+ user: No. 
+ assistant: You mentioned earlier that you've had a bit of a cough. To confirm, have you experienced a cough in the past seven days, or not? 
+ user: Yes. 
+ assistant: Have you experienced a sore throat in the past seven days, or not? 
+ user: Yeah. Maybe a little bit, but not not too much. 
+ assistant: Okay, so you've had a bit of a sore throat. Have you experienced sneezing in the past seven days, or not? 
+ user: Yeah. No. No no sneezing. 
+ assistant: Okay, so you haven't had any sneezing. Have you experienced muscle or body aches in the past seven days, or not? 
+ user: And also no no body pain. 
+ assistant: Have you experienced headaches in the past seven days, or not? 
+ user: No. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: Okay. Yep. Let me let me find one. Okay. Yeah. I got one. So my temperature's 99.8 degrees Fahrenheit. 
+ assistant: Thank you for taking your temperature. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ user: Thank you. 
+ assistant: Goodbye! 
+ agent-action: Ended call 
+ 

@@ -1,0 +1,75 @@
+user: Hello? 
+ assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: So it's, like, 10 minutes, so I could I could answer some questions. 
+ assistant: That's great, thank you so much for agreeing to participate. To begin, what is your current age? 
+ user: I'm 50 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: I'm a women's son, female. 
+ assistant: What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: What are the options here? Because I'm from a small island in the Pacific Ocean. Not sure. If it fits to any category. 
+ assistant: That's okay, you can describe yourself in any way that feels accurate to you. We have categories such as White, Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, or you can say multiple races or something else that describes your background. What feels most comfortable for you? 
+ user: Can we leave the phone as a blank? 
+ assistant: We can definitely leave that question blank for now and move on. What was your total household income in 2019? 
+ user: $62,500 a Here. 
+ assistant: Thank you for sharing that. What is the highest level of school you have completed? 
+ user: And I graduated in 10th grade. 
+ assistant: Including yourself, how many persons currently live in your household at least 50 percent of the time? Please include any children as well as adults. 
+ user: We are a family of 5. 
+ assistant: How many persons currently living in your household, including yourself, are 0-1 years old? 
+ user: Yeah. That's only one one infant that we have. 
+ assistant: How many persons currently living in your household, including yourself, are 2-5 years old? 
+ user: That's also one person. 
+ assistant: How many persons currently living in your household, including yourself, are 6-12 years old? 
+ user: And nobody. 
+ assistant: How many persons currently living in your household, including yourself, are 13-17 years old? 
+ user: Also, nobody 
+ assistant: How many persons currently living in your household, including yourself, are 18+ years old? 
+ user: That's 3 persons. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: It was a few times a month, I would say. 
+ assistant: During a typical month prior to March 1, 2020, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: A few times a week. 
+ assistant: In the past 7 days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: It's 0. 
+ assistant: In the past 7 days, how often have you felt depressed? Please provide your answer in number of days. 
+ user: So I didn't feel depressed at but I was feeling lonely a little bit for let's say, 3 or 4 days last week. 
+ assistant: Okay, so you felt lonely for 3 or 4 days. In the past 7 days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: 0 
+ assistant: In the past 7 days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past 7 days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: Yes. I worked at my job for someone. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: I'm I would say it's very good. I'm in a very good Health. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: And no. It's been never diagnosed with COVID 19. 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: No. Also not in my household. 
+ assistant: Have you experienced chills in the past 7 days, or not? 
+ user: No. Like, I had like, minor has some symptoms, something like chest congestion or sneezing. But no chills or something like that. 
+ assistant: Have you experienced a runny or stuffy nose in the past 7 days, or not? 
+ user: And no. No runny nose. 
+ assistant: Have you experienced chest congestion in the past 7 days, or not? 
+ user: Yes. I had it. 
+ assistant: Have you experienced a skin rash in the past 7 days, or not? 
+ user: No. I I didn't had a skin rash. 
+ assistant: Have you experienced a cough in the past 7 days, or not? 
+ user: It caught no. No. I didn't had I had a cough. 
+ assistant: Have you experienced a sore throat in the past 7 days, or not? 
+ user: Yes. I had I had a sore throat. 
+ assistant: Have you experienced sneezing in the past 7 days, or not? 
+ user: Yes. I have I had sneezing. 
+ user: I was sneezing. <Cannot be interrupted, user message ignored> 
+ assistant: Have you experienced muscle or body aches in the past 7 days, or not? 
+ user: No. I didn't have anybody 
+ assistant: Have you experienced headaches in the past 7 days, or not? 
+ user: No. I I don't didn't had a a headache. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: Yeah. I just have to look in my bathroom if I find it there. I will be back in, like, a couple of seconds. 
+ agent-action: [Waiting] 
+ user: Okay. So I just checked, and the batteries are empty of my thermometer. So I can't merit right now. I mean, I could somehow guess it maybe, but I don't know how accurate it is. 
+ assistant: That's okay, we can skip that question then. Thank you so much for your time and for answering all these questions. That concludes our survey. Have a great day! 
+ user: You have a great day too. Bye. 
+ agent-action: Ended call 
+ assistant: Goodbye! 
+ 

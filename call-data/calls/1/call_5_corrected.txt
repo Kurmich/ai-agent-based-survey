@@ -1,0 +1,83 @@
+user: Hello? Who's calling? 
+ assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Sarah. <Cannot be interrupted, user message ignored> 
+ user: Yes. I have a couple of minutes for you. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: I'm now 38 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: I am 
+ assistant: Female? 
+ user: Yes. 
+ assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: I would identify my race as a specific islander. 
+ assistant: What was your total household income in two thousand nineteen? 
+ user: My total household income was $250,000 a year. 
+ assistant: Thank you for sharing that. What is the highest level of school you have completed? 
+ user: So I have completed the 8th grade. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ user: We are 7 people in this household. 
+ assistant: How many persons currently living in your household, including yourself, are zero to one years old? 
+ user: 0. 
+ assistant: How many persons currently living in your household, including yourself, are two to five years old? 
+ user: That's also 0. 
+ assistant: How many persons currently living in your household, including yourself, are six to twelve years old? 
+ user: We have 2 children. 
+ assistant: How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
+ user: School aged children in the house. <Cannot be interrupted, user message ignored> 
+ user: 2 people. 
+ assistant: How many persons currently living in your household, including yourself, are eighteen years old or older? 
+ user: 3. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: It was a few times a month, I would say. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: That was, like, a few times times a month. 
+ assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: Sorry. What was the question again? 
+ assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? For example, was it one day, two days, three days, and so on? 
+ user: Would say no days? 
+ user: 0. <Cannot be interrupted, user message ignored> 
+ assistant: How often have you felt depressed in the past seven days? Please provide your answer in number of days. 
+ user: I think it was a couple of days. I felt depressed. Maybe, like, 4. 
+ assistant: And how often have you felt lonely in the past seven days? Please provide your answer in number of days. 
+ user: That was yeah. I would to be honest, on every day of the week, I felt lonely. 
+ assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: I had none. None at all. 
+ assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: Yes. I was like, I'm I'm currently employed. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: It's very good, I would say. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: No. 
+ user: I wasn't diagnosed. <Cannot be interrupted, user message ignored> 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: That's also no. 
+ assistant: Have you experienced chills in the past seven days, or not? 
+ user: No. I didn't have any flu like symptoms or any 
+ assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
+ user: Nope. 
+ assistant: Have you experienced chest congestion in the past seven days, or not? 
+ user: Nope. 
+ assistant: Have you experienced a skin rash in the past seven days, or not? 
+ user: Nope. 
+ assistant: Have you experienced a cough in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a sore throat in the past seven days, or not? 
+ user: Nope. 
+ assistant: Have you experienced sneezing in the past seven days, or not? 
+ user: Nope. 
+ user: Also, no sneezing. <Cannot be interrupted, user message ignored> 
+ assistant: Have you experienced muscle or body aches in the past seven days, or not? 
+ user: Nope. I didn't have any symptoms. 
+ assistant: Have you experienced headaches in the past seven days, or not? 
+ user: No. As I just said, I had no symptoms. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: Yes. Give me a couple of seconds. 
+ agent-action: [Waiting] 
+ user: So my temperature is 99 point 2 
+ assistant: Thank you for providing that information. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ user: Thanks. You too. Bye. 
+ assistant: Goodbye! 
+ agent-action: Ended call 
+ 

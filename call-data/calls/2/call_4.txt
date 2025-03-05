@@ -1,0 +1,88 @@
+user: Hello? 
+ assistant: Hello! My name is Sarah, and I’m conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Yes. Sure. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: I'm 59 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: Oh, mail. 
+ assistant: I think you might have said mail, but I meant to ask if you are male or female? 
+ user: Yes. You're right. I'm a male. 
+ assistant: Thank you for clarifying. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: I'm just a white man. 
+ assistant: Okay, thank you. What was your total household income in two thousand nineteen? 
+ user: I wanna say 69,000. 
+ assistant: Thank you for sharing that. What is the highest level of school you have completed? 
+ user: I only completed, I'd say, 9th grade. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ user: I live with 3 other people, so 4 total. 
+ assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
+ user: I'm on 0. 
+ assistant: How many persons currently living in your household, including yourself, are two to five years old? 
+ user: 0. 
+ assistant: How many persons currently living in your household, including yourself, are six to twelve years old? 
+ user: This is one kid. 
+ assistant: How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
+ user: I have 115 year old. 
+ assistant: I think there might be a mistake, it's not possible to have a 115 year old child. Could you please clarify or provide the correct number of persons in your household who are thirteen to seventeen years old? 
+ user: I have one kid that is 15 years old. 
+ assistant: How many persons currently living in your household, including yourself, are eighteen years old or older? 
+ user: I myself included, 2 
+ assistant: So, including yourself, there are three adults in the household. In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Repeat the question, please. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Almost every day. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Very different. I only talked to people about once a month before the pandemic happened. 
+ assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: I've been feeling pretty pretty anxious for the past couple of days. 
+ assistant: So, would you say you've felt nervous, anxious, or on edge for two days out of the past seven? 
+ user: Yeah. I'd say so. 
+ assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
+ user: For the past few days, pretty depressed. 3 days maybe. 
+ assistant: In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 
+ user: I don't really feel lonely though. 
+ assistant: Okay, so you would say zero days out of the past seven. In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: Sorry. Could you repeat that? 
+ assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: I've been feeling pretty hopeless for the past week. Maybe, like, 6, 7 days. 
+ assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: No. No physical issues. With me regarding the pandemic. 
+ assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: I'm employed. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: And I work very regularly. So <Cannot be interrupted, user message ignored> 
+ user: That's very good. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: No. 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: No. 
+ assistant: Have you experienced chills in the past seven days, or not? 
+ user: I I had some chills the past week. 
+ assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
+ user: No. Nothing else. 
+ user: No cost. <Cannot be interrupted, user message ignored> 
+ assistant: Have you experienced chest congestion in the past seven days, or not? 
+ user: No. 
+ user: I'm not <Cannot be interrupted, user message ignored> 
+ assistant: Have you experienced a skin rash in the past seven days, or not? 
+ user: Nope. 
+ assistant: Have you experienced a cough in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a sore throat in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced sneezing in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced muscle or body aches in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced headaches in the past seven days, or not? 
+ user: Mm-mm. Nope. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: I know how to use a thermometer. 
+ assistant: Great, can you please take your temperature now and tell me what it is? 
+ user: 98.6. Fahrenheit. 
+ user: Mhmm. <Cannot be interrupted, user message ignored> 
+ assistant: Thank you for providing that information. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ user: Yeah. 
+ assistant: Goodbye! 
+ agent-action: Ended call 
+ 
