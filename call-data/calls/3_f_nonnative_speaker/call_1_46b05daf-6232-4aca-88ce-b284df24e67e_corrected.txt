@@ -1,0 +1,100 @@
+user: Hello? 
+ assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Yeah. Sure. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: 35 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: Female 
+ assistant: I apologize, but I think there might have been some confusion. You were supposed to answer whether you are male or female. Could you please tell me your gender? 
+ user: Female
+ assistant: I think we got a bit off track. This survey is about the impact of COVID-19, and I need to ask you some questions. You mentioned email, but that's not relevant to this question. To continue, could you please tell me whether you identify as male or female? 
+ user: Female. 
+ assistant: I apologize, but I didn't ask for your email address. I asked for your gender, whether you are male or female. Could you please answer that question so we can proceed with the survey? 
+ user: Hello? <Cannot be interrupted, user message ignored> 
+ user: Female. I said female.
+ assistant: I'm not sure what you're referring to with 'premium', but I'd like to get back on track with the survey. Could you please answer the question about your gender, whether you are male or female? 
+ user: Female. 
+ assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: American Indian. 
+ assistant: What was your total household income in two thousand nineteen? 
+ user: 10,000. 
+ assistant: I didn't quite catch that. Could you please tell me your total household income in two thousand nineteen? For example, was it around fifty thousand dollars, one hundred thousand dollars, or something else? 
+ user: Under $10,000. 
+ assistant: I'm having a bit of trouble understanding. Could you please clarify your total household income in two thousand nineteen? For instance, was it less than ten thousand dollars, or around one thousand dollars? 
+ user: Less than 10,000 dollars. 
+ assistant: What is the highest level of school you have completed? 
+ user: High school. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ agent-action: [Waiting] 
+ user: 4 
+ assistant: And how many persons currently living in your household, including yourself, are 0-1 years old? 
+ user: 4 people. 
+ assistant: I think there might be some confusion. You mentioned earlier that there are four people in your household, but now you're saying that all four people are 0-1 years old. Could you please clarify how many people in your household are actually 0-1 years old? 
+ user: 0. 
+ user: Oh, no one. <Cannot be interrupted, user message ignored> 
+ assistant: How many persons currently living in your household, including yourself, are 2-5 years old? 
+ user: The following is on the 1. 
+ assistant: I'm not sure I understand. Could you please tell me how many people in your household are 2-5 years old? 
+ user: Okay. <Cannot be interrupted, user message ignored> 
+ user: 1 
+ assistant: How many persons currently living in your household, including yourself, are 6-12 years old? 
+ user: 1 
+ assistant: How many persons currently living in your household, including yourself, are 13-17 years old? 
+ user: No. 
+ assistant: I'll take that as zero. How many persons currently living in your household, including yourself, are 18 years old or older? 
+ user: 1. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: A few times a month. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Not at all. 
+ assistant: In the past 7 days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: 1 2 3 days. 
+ assistant: I think there might be some confusion. It's not possible to feel nervous, anxious, or on edge for one hundred twenty-eight days in the past 7 days. Could you please provide a number between 0 and 7? 
+ user: 2 
+ assistant: In the past 7 days, how often have you felt depressed? Please provide your answer in number of days. 
+ user: 2 days. 
+ assistant: I'll take that as 2 days. In the past 7 days, how often have you felt lonely? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past 7 days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: 4 
+ assistant: In the past 7 days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: Yeah. 
+ assistant: I didn't quite get a number from you. Could you please tell me how many days in the past 7 days you've had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? 
+ user: 1. 
+ assistant: In the past 7 days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: I didn't work at all. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: Good. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: No. 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: No. 
+ assistant: Have you experienced chills in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced a runny or stuffy nose in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced chest congestion in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced a skin rash in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced a cough in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced a sore throat in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced sneezing in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced muscle or body aches in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced headaches in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: Yes. 
+ assistant: What is your body temperature? 
+ user: 97.9 Fahrenheit. 
+ assistant: I think there might be some confusion. A body temperature of nine hundred eighty-seven point nine degrees Fahrenheit is not possible. Could you please take your temperature again and provide me with a more accurate reading? 
+ user: 97. 
+ user: Point 9. <Cannot be interrupted, user message ignored> 
+ assistant: I think you might have missed the decimal point. Could you please tell me if your body temperature is ninety-two point something, or if it's actually ninety-two degrees, which would be a bit low? 
+ user: 97. 
+ assistant: Thank you for providing that information. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ 
