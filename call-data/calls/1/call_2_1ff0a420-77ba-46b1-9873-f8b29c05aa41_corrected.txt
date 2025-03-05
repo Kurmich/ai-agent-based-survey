@@ -1,6 +1,6 @@
 user: Hello? 
  assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
- user: Do you belong to any agency or universal 
+ user: Do you belong to any agency or university, or what happens with my data? 
  assistant: I'm calling from a research institution, and this survey is part of a national effort to understand the impact of COVID-19 on households in the United States. I assure you that your responses will be kept confidential and used for research purposes only. Could you please confirm if you're willing to participate in this survey? 
  user: Yep. 
  assistant: Thank you so much! To begin, what is your current age? 
@@ -13,9 +13,9 @@ user: Hello?
  assistant: What was your total household income in two thousand nineteen? 
  user: The the total income was 48,200 dollars a year. 
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
- user: So I concluded the 3rd grade of elementary Cool. 
+ user: So I concluded the 3rd grade of elementary school. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
- user: And we are 2 adults and no children. 
+ user: Ah we are 2 adults and no children. 
  assistant: So, there are two adults in total, and no children. How many persons currently living in your household, including yourself, are eighteen years old or older? 
  user: Yeah. 2 persons are 18 years or older. 
  assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
@@ -33,7 +33,7 @@ user: Hello?
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
  user: 0 days. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't work at all? 
- user: And why was unemployed? 
+ user: I was unemployed. 
  assistant: I apologize, I didn't quite catch that. You said you were unemployed, but could you tell me, did you work for someone, were you self-employed, or didn't work at all in the past seven days? 
  user: Yeah. I didn't work at all. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
@@ -46,7 +46,7 @@ user: Hello?
  assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
  user: No. 
  assistant: Have you experienced chills in the past seven days, or not? 
- user: No. I didn't. Had any tills. 
+ user: No. I didn't. Had any chills. 
  assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: Nope. 
  assistant: Have you experienced chest congestion in the past seven days, or not? 
@@ -61,9 +61,9 @@ user: Hello?
  assistant: Have you experienced sneezing in the past seven days, or not? 
  user: No. No sneezing. But I'm also not sure if I had a sore throat. 
  assistant: Okay, so you're not sure about the sore throat. Have you experienced muscle or body aches in the past seven days, or not? 
- user: No. Nobody eggs. 
+ user: No. Nobody body aches. 
  assistant: Have you experienced headaches in the past seven days, or not? 
- user: And 
+ user: Ah no. 
  assistant: I didn't quite catch that. Could you please repeat your answer regarding headaches in the past seven days? 
  user: No headaches. 
  assistant: Can you use a thermometer to take your temperature now? 
