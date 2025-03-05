@@ -3,13 +3,13 @@ user: Hello? Who's calling?
  user: Sarah. <Cannot be interrupted, user message ignored> 
  user: Yes. I have a couple of minutes for you. 
  assistant: Thank you so much! To begin, what is your current age? 
- user: I'm now 38 years old. 
+ user: I'm right now 38 years old. 
  assistant: Great, thank you. Are you male or female? 
- user: I am 
+ user: I am a woman.
  assistant: Female? 
  user: Yes. 
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
- user: I would identify my race as a specific islander. 
+ user: I would identify my race as Pacific islander. 
  assistant: What was your total household income in two thousand nineteen? 
  user: My total household income was $250,000 a year. 
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
@@ -24,7 +24,7 @@ user: Hello? Who's calling?
  user: We have 2 children. 
  assistant: How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
  user: School aged children in the house. <Cannot be interrupted, user message ignored> 
- user: 2 people. 
+ user: 2 persons. 
  assistant: How many persons currently living in your household, including yourself, are eighteen years old or older? 
  user: 3. 
  assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
@@ -54,7 +54,7 @@ user: Hello? Who's calling?
  assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
  user: That's also no. 
  assistant: Have you experienced chills in the past seven days, or not? 
- user: No. I didn't have any flu like symptoms or any 
+ user: No. I didn't have any flu like symptoms or any cold
  assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: Nope. 
  assistant: Have you experienced chest congestion in the past seven days, or not? 

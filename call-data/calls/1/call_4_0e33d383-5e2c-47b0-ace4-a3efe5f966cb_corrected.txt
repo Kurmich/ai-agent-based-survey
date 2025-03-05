@@ -2,12 +2,12 @@ user: Good afternoon.
  assistant: Hello! My name is Sarah, and I’m conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
  user: Hello, Sarah. Yeah. I think I have a little bit of time for you. 
  assistant: Thank you so much! To begin, what is your current age? 
- user: So I'm right now 40 9 years old. 
+ user: So I'm right now 49 years old. 
  assistant: Great, thank you. Are you male or female? 
  user: I am where you oh, sorry. 
  assistant: I apologize, could you please repeat that? You started to say you are, and then it sounded like the call dropped for a second. Could you please repeat your answer to the question, are you male or female? 
  user: Yeah. <Cannot be interrupted, user message ignored> 
- user: I'm sorry. I was drawing a little bit because I'm a little bit tired. But I'm I'm a male. 
+ user: I'm sorry. I was yawning a little bit because I'm a little bit tired. But I'm I'm a male. 
  assistant: No need to apologize, I completely understand. Thank you for letting me know you're a male. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  user: I'm a native Hawaiian. 
  assistant: Thank you for sharing that with me. What was your total household income in two thousand nineteen? 
@@ -32,15 +32,15 @@ user: Good afternoon.
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: That was every day. 
  assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
- user: So so Benjie's a nervous like, almost every day, I would say. 
+ user: So so I'm just a nervous like, almost every day, I would say. 
  assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
- user: I had no no phase of depression last week. 
+ user: I had no no days of depression last week. 
  assistant: In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 
- user: Yeah. So as we are very big holes or, like, not a big house, but, like, we have 2 teenagers and my wife here. I didn't felt lonely at all. 
+ user: Yeah. So as we are very big house or, like, not a big house, but, like, we have 2 teenagers and my wife here. I didn't felt lonely at all. 
  assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
- user: And I said hopeless for, like, 4 days in the last week. 
+ user: And I felt hopeless for, like, 4 days in the last week. 
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
- user: So, like, my heart is 0 power. Powering, I would say, for, like, 2 days. So if we get include that to physical reactions, then I would say was 2 days in the last week. 
+ user: So, like, my heart has been pounding. Pounding, I would say, for, like, 2 days. So if we get include that to physical reactions, then I would say was 2 days in the last week. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
  user: Just so I was working for wages in the last week. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
@@ -52,7 +52,7 @@ user: Good afternoon.
  assistant: Have you experienced chills in the past seven days, or not? 
  user: No. I I didn't have any chills. 
  assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
- user: Let me see about it. 
+ user: Let me think about it. 
  user: No. <Cannot be interrupted, user message ignored> 
  assistant: Take your time, I'll wait for your response. Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: No. I didn't had a runny nose. 
@@ -63,7 +63,7 @@ user: Good afternoon.
  user: Okay. I'm already back. 
  assistant: Welcome back. We were discussing the survey questions. To recap, the last question was about chest congestion. Have you experienced chest congestion in the past seven days, or not? 
  user: Was <Cannot be interrupted, user message ignored> 
- user: No. I did didn't have any test injections in the last week. 
+ user: No. I did didn't have any chest congestions in the last week. 
  assistant: I think there might be some confusion. The question was about chest congestion, not test injections. Let me rephrase: Have you experienced any congestion in your chest, such as difficulty breathing or tightness in your chest, in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a skin rash in the past seven days, or not? 
@@ -85,7 +85,7 @@ user: Good afternoon.
  user: Nope. 
  assistant: Can you use a thermometer to take your temperature now? 
  user: Sorry. But I don't we don't have a temperate thermometer at home, so that's not possible for me. 
- assistant: That's okay, it's not a requirement. We can still complete the survey wit- That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day. 
+ assistant: That's okay, it's not a requirement. We can still complete the survey without it. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day. 
  user: You too. Thank you. 
  agent-action: Ended call 
  assistant: Goodbye 
