@@ -1,2 +1,4 @@
+evaluate
 requests
+rouge-score
 sacrebleu
