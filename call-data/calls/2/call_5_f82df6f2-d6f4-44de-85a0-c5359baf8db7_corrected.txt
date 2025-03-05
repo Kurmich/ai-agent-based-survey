@@ -62,6 +62,6 @@ user: Hello?
  assistant: Can you use a thermometer to take your temperature now? 
  user: Yeah. 
  assistant: Please go ahead and take your temperature. I'll wait for your response. What is your body temperature? 
- user: It says it's a 107 degrees. 
+ user: It says it's 107 degrees. 
  assistant: Thank you for providing that information. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
  

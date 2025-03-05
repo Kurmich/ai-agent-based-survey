@@ -1,13 +1,13 @@
 user: Hello? 
  assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
- user: You got me? <Cannot be interrupted, user message ignored> 
+ user: You're on mute <Cannot be interrupted, user message ignored> 
  user: Sure. 
  assistant: Thank you so much! To begin, what is your current age? 
  user: I'm 18. 
  assistant: Great, thank you. Are you male or female? 
  user: Male. 
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
- user: Manchu and Berme's. 
+ user: Manchu and Bermese. 
  assistant: What was your total household income in two thousand nineteen? 
  user: About a 129,000. 
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
@@ -27,7 +27,7 @@ user: Hello?
  assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: I talked to neighbors a few times weekly. 
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
- user: I'm seeing a notice before. 
+ user: Same amount as before. 
  user: Few times weekly. <Cannot be interrupted, user message ignored> 
  assistant: I apologize, could you please clarify your response regarding how often you talked with your neighbors prior to March first, two thousand twenty? 
  user: Few times weekly. 
@@ -71,5 +71,5 @@ user: Hello?
  assistant: Can you use a thermometer to take your temperature now? 
  user: No. 
  assistant: That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
- user: Yes. Right. 
+ user: Yeah. Bye. 
  

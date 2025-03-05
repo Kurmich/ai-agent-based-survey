@@ -4,7 +4,7 @@ user: Hello?
  assistant: Thank you so much! To begin, what is your current age? 
  user: I'm 59 years old. 
  assistant: Great, thank you. Are you male or female? 
- user: Oh, mail. 
+ user: Oh, male. 
  assistant: I think you might have said mail, but I meant to ask if you are male or female? 
  user: Yes. You're right. I'm a male. 
  assistant: Thank you for clarifying. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
@@ -16,13 +16,13 @@ user: Hello?
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
  user: I live with 3 other people, so 4 total. 
  assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
- user: I'm on 0. 
+ user: 0. 
  assistant: How many persons currently living in your household, including yourself, are two to five years old? 
  user: 0. 
  assistant: How many persons currently living in your household, including yourself, are six to twelve years old? 
- user: This is one kid. 
+ user: There is one kid. 
  assistant: How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
- user: I have 115 year old. 
+ user: I have 1 15 year old. 
  assistant: I think there might be a mistake, it's not possible to have a 115 year old child. Could you please clarify or provide the correct number of persons in your household who are thirteen to seventeen years old? 
  user: I have one kid that is 15 years old. 
  assistant: How many persons currently living in your household, including yourself, are eighteen years old or older? 
@@ -51,7 +51,7 @@ user: Hello?
  user: I'm employed. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
  user: And I work very regularly. So <Cannot be interrupted, user message ignored> 
- user: That's very good. 
+ user: It's very good. 
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
  user: No. 
  assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
@@ -60,7 +60,7 @@ user: Hello?
  user: I I had some chills the past week. 
  assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: No. Nothing else. 
- user: No cost. <Cannot be interrupted, user message ignored> 
+ user: No coughs or runny nose. <Cannot be interrupted, user message ignored> 
  assistant: Have you experienced chest congestion in the past seven days, or not? 
  user: No. 
  user: I'm not <Cannot be interrupted, user message ignored> 
