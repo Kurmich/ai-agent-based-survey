@@ -4,26 +4,26 @@ user: Hello?
  assistant: Thank you so much! To begin, what is your current age? 
  user: 46 
  assistant: Great, thank you. Are you male or female? 
- user: Email. 
+ user: Female. 
  assistant: I think there might be some confusion. The question was about your gender, are you male or female? 
- user: Email. 
+ user: Female. 
  assistant: I apologize, but email isn't an answer to the question. Could you please tell me if you identify as male or female? 
- user: Email. 
+ user: Female. 
  assistant: I think we've got a misunderstanding here. This survey is about COVID-19's impact on households, and I need to know if you're male or female to proceed. Could you please answer the question or I might need to end the call? 
  user: Female. 
  assistant: Thank you for answering. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  agent-action: [Waiting] 
- user: Tomorrow. 
+ user: Guamanian. Tomorrow.
  assistant: I think there might be some confusion. The question was about your race or ethnicity, not about a day of the week or a time frame. Could you please tell me what race or races you consider yourself to be? 
  user: Guamanian. 
  assistant: Thank you for sharing that. What was your total household income in two thousand nineteen? 
- user: 145 1,000. 
+ user: 145,000. 
  assistant: I think you meant to say one hundred forty-five thousand dollars. What is the highest level of school you have completed? 
  user: High school. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
- user: Yeah. 
+ user: Four. 
  assistant: I didn't quite get that. Could you please tell me how many people live in your household, including yourself? 
- user: Phil. 
+ user: Four. 
  assistant: I think there's been a misunderstanding. The question was about the number of people living in your household, not a person's name. Could you please tell me how many people live with you? 
  user: 4. <Cannot be interrupted, user message ignored> 
  assistant: Great, thank you. How many persons currently living in your household, including yourself, are zero to one years old? 

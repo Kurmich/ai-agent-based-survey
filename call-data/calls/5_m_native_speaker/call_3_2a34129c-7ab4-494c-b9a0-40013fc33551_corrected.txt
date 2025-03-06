@@ -15,7 +15,7 @@ user: Hello?
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
  user: Some college. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
- user: Yeah. 
+ user: 4. 
  assistant: I apologize, I didn't quite catch that. Could you please provide a specific number of persons currently living in your household? 
  user: 4 
  assistant: How many persons currently living in your household, including yourself, are zero to one years old? 
@@ -40,7 +40,7 @@ user: Hello?
  assistant: In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 
  user: Less than one day. 
  assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
- user: Lesson 1. 
+ user: Less than one. 
  assistant: I apologize, I didn't quite understand that. Could you please provide a specific number of days you felt hopeless about the future in the past seven days? 
  user: 1 
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 

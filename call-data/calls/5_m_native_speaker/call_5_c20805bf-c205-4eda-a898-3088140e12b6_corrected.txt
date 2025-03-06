@@ -5,17 +5,17 @@ user: Hello.
  user: 35. 
  assistant: Great, thank you. Are you male or female? 
  user: 35. 
- user: Email. <Cannot be interrupted, user message ignored> 
+ user: Female. <Cannot be interrupted, user message ignored> 
  assistant: I think you may have repeated your age, could you please tell me, are you male or female? 
- user: Email. 
+ user: Female. 
  assistant: I apologize, but I didn't ask for your email address. I asked if you are male or female. Could you please answer that question? 
  user: Girl. 
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
- user: Wait. 
+ user: White. 
  agent-action: [Waiting] 
- user: Wait. 
+ user: White. 
  agent-action: [Waiting] 
- user: Wait. 
+ user: White. 
  agent-action: [Waiting] 
  user: Hello? 
  assistant: Hello, I'm still here. You had mentioned 'wait' a few times, but I wanted to follow up on my previous question. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
@@ -68,7 +68,7 @@ user: Hello.
  assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
  user: Yeah. 
  assistant: Have you experienced chest congestion in the past seven days, or not? 
- user: Now 
+ user: No.
  assistant: I'm sorry, I didn't quite understand that. To clarify, have you experienced chest congestion in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a skin rash in the past seven days, or not? 
