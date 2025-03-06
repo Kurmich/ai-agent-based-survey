@@ -3,11 +3,11 @@ user: Hello?
  user: Yeah. <Cannot be interrupted, user message ignored> 
  user: Yeah. I guess so. 
  assistant: Thank you so much! To begin, what is your current age? 
- user: 40 
+ user: 46
  assistant: Great, thank you. Are you male or female? 
- user: email. 
+ user: Female. 
  assistant: I think there might be some confusion. You mentioned email, but I asked about your gender. Could you please tell me, are you male or female? 
- user: I email. 
+ user: Female. 
  assistant: I think we're having a misunderstanding. The question is about your gender, not your email. Could you please tell me, are you male or female? 
  user: Right. 
  assistant: I apologize, but I didn't quite get an answer to my question. Could you please tell me, are you male or female? 
@@ -25,6 +25,7 @@ user: Hello?
  user: Just 1. 
  assistant: So, there's only one person living in your household. How many persons currently living in your household, including yourself, are zero to one years old? 
  agent-action: [Waiting] 
+ user: None.
  user: Hello? 
  assistant: Hello, I'm still here. We were in the middle of a survey. To recap, you mentioned there's only one person living in your household. Can you please tell me, how many persons currently living in your household, including yourself, are zero to one years old? 
  user: Yeah. <Cannot be interrupted, user message ignored> 
@@ -38,15 +39,15 @@ user: Hello?
  assistant: How many persons currently living in your household, including yourself, are 2-5 years old? 
  user: None. 
  assistant: How many persons currently living in your household, including yourself, are 6-12 years old? 
- user: Yeah. 
+ user: None. 
  assistant: I apologize, but I didn't quite get an answer to my question. To confirm, are there any persons in your household who are 6-12 years old? 
  user: No. 
  assistant: How many persons currently living in your household, including yourself, are 13-17 years old? 
- user: And I 
+ user: None.
  assistant: I apologize, but I didn't quite get an answer to my question. To confirm, are there any persons in your household who are 13-17 years old? 
  user: No. 
  assistant: How many persons currently living in your household, including yourself, are 18 years old or older? 
- user: Myself, so 1. 
+ user: Just myself, so 1. 
  assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: A few times a week. 
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
@@ -71,17 +72,17 @@ user: Hello?
  assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
  user: No. 
  assistant: Have you experienced chills in the past 7 days, or not? 
- user: I did experience some minor shows. 
+ user: I did experience some minor chills. 
  user: Earlier this week. <Cannot be interrupted, user message ignored> 
  assistant: I think you might have meant to say 'chills' instead of 'shows'. To confirm, have you experienced chills in the past 7 days, or not? 
  user: Mhmm. <Cannot be interrupted, user message ignored> 
- user: Yes. I've I've experienced minor show. 
+ user: Yes. I've I've experienced minor chills. 
  assistant: I apologize, but I think there's still a misunderstanding. You mentioned 'show' again, but I'm asking about chills, which is a physical symptom. To clarify, have you experienced chills, which are feelings of cold or shivering, in the past 7 days? 
  user: No. <Cannot be interrupted, user message ignored> 
- user: Yes. No. I I experienced minor shells. Minor shells. 
+ user: Yes. No. I I experienced minor chills. Minor chills. 
  assistant: I think we're having a difficult time understanding each other. I'm going to move on to the next question. Have you experienced a runny or stuffy nose in the past 7 days, or not? 
  user: Okay. <Cannot be interrupted, user message ignored> 
- user: Yeah. Actually, I had a I had a minor minor. 
+ user: Yeah. Actually, I had a I had a minor runny nose. 
  assistant: I apologize, but it seems like we're having some trouble communicating. To clarify, you're saying you had a minor something, but I'm not sure what that refers to. To answer my question, have you had a runny or stuffy nose in the past 7 days, yes or no? 
  user: Runny nose. I had a minor runny nose. <Cannot be interrupted, user message ignored> 
  user: I had a minor runny nose. 
@@ -90,7 +91,7 @@ user: Hello?
  assistant: Have you experienced a skin rash in the past 7 days, or not? 
  user: Yes. I have. 
  assistant: Have you experienced a cough in the past 7 days, or not? 
- user: I had a minor class. 
+ user: I had a minor cough. 
  user: Yes. <Cannot be interrupted, user message ignored> 
  assistant: I think you might have meant to say something else. To clarify, have you had a cough in the past 7 days, yes or no? 
  user: Yes. 

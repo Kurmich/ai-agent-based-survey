@@ -4,11 +4,11 @@ user: Well,
  assistant: Thank you so much! To begin, what is your current age? 
  user: 38. 
  assistant: Great, thank you. Are you male or female? 
- user: Email 
+ user: Female 
  assistant: I think there might have been some confusion. You provided your email, but I asked if you are male or female. Could you please tell me your gender? 
- user: Email. 
+ user: Female. 
  assistant: I apologize, but I didn't ask for your email address. I need to know if you are male or female to proceed with the survey. Could you please answer that question? 
- user: Email? <Cannot be interrupted, user message ignored> 
+ user: Female <Cannot be interrupted, user message ignored> 
  user: Female. 
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  user: Indian. 
@@ -35,11 +35,11 @@ user: Well,
  user: Well, myself and my husband are 8 over 18. 
  assistant: I think there might be some confusion, you said yourself and your husband are over eighteen, but that would be two people, and earlier you mentioned there were three people in your household, including a four-year-old child. Could you please clarify? 
  user: Mhmm. <Cannot be interrupted, user message ignored> 
- user: Yeah. We have 2 p who are over 18 and we have a 4 year old child. 
+ user: Yeah. We have 2 people who are over 18 and we have a 4 year old child. 
  assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: I say a few times a month. 
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
- user: Times a month. 
+ user: Few times a month. 
  assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
  user: 2 days, maybe. 
  assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
@@ -65,7 +65,7 @@ user: Well,
  user: No. 
  assistant: Have you experienced chest congestion in the past seven days, or not? 
  agent-action: [Waiting] 
- user: Hello? 
+ user: No. Hello?
  assistant: I'm so sorry about that, it seems like we got disconnected for a moment. Let's continue with the survey. You were answering questions about your health. To recap, you said you hadn't experienced chills or a runny or stuffy nose in the past seven days. The next question is: Have you experienced chest congestion in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a skin rash in the past seven days, or not? 

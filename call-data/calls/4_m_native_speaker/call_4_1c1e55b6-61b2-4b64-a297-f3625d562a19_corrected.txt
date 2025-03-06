@@ -9,13 +9,13 @@ user: Hello?
  user: I'm Filipino. <Cannot be interrupted, user message ignored> 
  user: I'm Filipino. 
  assistant: What was your total household income in two thousand nineteen? 
- user: Around 130,000. 
+ user: Around 230,000. 
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
  user: Well, about high school. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
  user: It's just myself. 
  assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
- user: I'll know then. 
+ user: Well none of them. 
  assistant: I think there might be some confusion. Since you mentioned it's just yourself living in the household, I'll assume there are no children zero to one years old. Let's move on. How many persons currently living in your household, including yourself, are two to five years old? 
  user: Yeah. <Cannot be interrupted, user message ignored> 
  user: None. 
@@ -40,7 +40,7 @@ user: Hello?
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
  user: 0. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't work at all? 
- user: Well, I'm actually off of work right now. So 
+ user: Well, I'm actually off of work right now. So, I didn't work
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
  user: I'd say good. 
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
@@ -57,6 +57,7 @@ user: Hello?
  assistant: Have you experienced a skin rash in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a cough in the past seven days, or not? 
+ user: No.
  agent-action: [Waiting] 
  agent-action: [Waiting] 
  user: Hello? 

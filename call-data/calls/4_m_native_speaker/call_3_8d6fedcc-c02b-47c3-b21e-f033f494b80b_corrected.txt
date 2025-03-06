@@ -4,7 +4,7 @@ user: Hello?
  assistant: Thank you so much! To begin, what is your current age? 
  user: I'm 38 years old. 
  assistant: Great, thank you. Are you male or female? 
- user: And female? 
+ user: I'm female.
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  user: I identify as an American Indian. Or an Alaska Native. 
  assistant: Thank you for sharing that with me. What was your total household income in two thousand nineteen? 
@@ -37,9 +37,9 @@ user: Hello?
  assistant: I'm so sorry to hear about your loss. In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
  user: Oh, I don't feel helpless about the future. So you know, not no. I I I wouldn't say I'm hopeless about the future. That that would be that would be 0. 0 time. 
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
- user: I'm I'm very much peace with things. So, you know, that doesn't prob that doesn't occur for me. I I said 0 days. 
+ user: I'm I'm very much at peace with things. So, you know, that doesn't prob that doesn't occur for me. I I said 0 days. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
- user: Well, I I work for small and the last few days, and I I I actually leave the house every day and go to work. For my employer. 
+ user: Well, I I work for someone the last few days, and I I I actually leave the house every day and go to work. For my employer. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
  user: I think my health is very good right now. 
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 

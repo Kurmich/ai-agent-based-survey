@@ -57,6 +57,7 @@ user: Hello?
  assistant: Have you experienced a skin rash in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a cough in the past seven days, or not? 
+ user:
  agent-action: [Waiting] 
  agent-action: [Waiting] 
  user: Hello? 

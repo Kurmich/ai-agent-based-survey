@@ -25,6 +25,7 @@ user: Hello?
  user: Just 1. 
  assistant: So, there's only one person living in your household. How many persons currently living in your household, including yourself, are zero to one years old? 
  agent-action: [Waiting] 
+ user: 
  user: Hello? 
  assistant: Hello, I'm still here. We were in the middle of a survey. To recap, you mentioned there's only one person living in your household. Can you please tell me, how many persons currently living in your household, including yourself, are zero to one years old? 
  user: Yeah. <Cannot be interrupted, user message ignored> 
