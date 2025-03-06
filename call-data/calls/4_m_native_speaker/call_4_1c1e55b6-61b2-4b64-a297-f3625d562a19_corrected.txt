@@ -1,0 +1,77 @@
+user: Hello? 
+ assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Yeah. I guess so. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: I'm 62 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: I'm male. 
+ assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: I'm Filipino. <Cannot be interrupted, user message ignored> 
+ user: I'm Filipino. 
+ assistant: What was your total household income in two thousand nineteen? 
+ user: Around 130,000. 
+ assistant: Thank you for sharing that. What is the highest level of school you have completed? 
+ user: Well, about high school. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ user: It's just myself. 
+ assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
+ user: I'll know then. 
+ assistant: I think there might be some confusion. Since you mentioned it's just yourself living in the household, I'll assume there are no children zero to one years old. Let's move on. How many persons currently living in your household, including yourself, are two to five years old? 
+ user: Yeah. <Cannot be interrupted, user message ignored> 
+ user: None. 
+ assistant: How many persons currently living in your household, including yourself, are six to twelve years old? 
+ user: None. 
+ assistant: How many persons currently living in your household, including yourself, are thirteen to seventeen years old? 
+ user: None. 
+ assistant: How many persons currently living in your household, including yourself, are eighteen years old or older? 
+ user: 1. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: Probably a few times a week. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: A few times a week. 
+ assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: Really not at all. 
+ assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 
+ user: Probably probably 1 or 2 days. 
+ assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
+ user: 0. 
+ assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't work at all? 
+ user: Well, I'm actually off of work right now. So 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: I'd say good. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: No. 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: No. 
+ user: Don't live with anyone. <Cannot be interrupted, user message ignored> 
+ assistant: Have you experienced chills in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a runny or stuffy nose in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced chest congestion in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a skin rash in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a cough in the past seven days, or not? 
+ agent-action: [Waiting] 
+ agent-action: [Waiting] 
+ user: Hello? 
+ assistant: I apologize for the brief delay. To confirm, have you experienced a cough in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced a sore throat in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced sneezing in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced muscle or body aches in the past seven days, or not? 
+ user: No. 
+ assistant: Have you experienced headaches in the past seven days, or not? 
+ user: No. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: I'm actually out right now, so I I can't And I I I don't even know if I have one. 
+ assistant: That's okay, we can skip that question. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ user: Okay. Bye. 
+ 
