@@ -34,7 +34,7 @@ user: Hello?
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
  user: 0. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
- user: That didn't work last week. 
+ user: I didn't work last week. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
  user: Very good. 
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 

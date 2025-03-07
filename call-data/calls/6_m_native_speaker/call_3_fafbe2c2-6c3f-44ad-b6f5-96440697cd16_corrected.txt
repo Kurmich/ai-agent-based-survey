@@ -1,14 +1,14 @@
-user: Hello. This is Nick. 
- assistant: Hello Nick, my name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+user: Hello. This is John. 
+ assistant: Hello John, my name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
  user: How long do you think this will take? 
  assistant: The survey should only take about fifteen to twenty minutes of your time, and I'll make sure to keep it as concise as possible. Can we get started? 
  user: Okay. 
- assistant: To begin, what is your current age, Nick? 
+ assistant: To begin, what is your current age, John? 
  user: I'm 49. 
  assistant: Great, thank you. Are you male or female? 
  user: I'm a man. 
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
- user: I did a as American Indian and Alaska Native. 
+ user: I identify as American Indian and Alaska Native. 
  assistant: Okay, thank you for sharing that with me. What was your total household income in two thousand nineteen? 
  user: Around 170. 
  assistant: So, your total household income in two thousand nineteen was around one hundred and seventy thousand dollars. What is the highest level of school you have completed? 
@@ -28,11 +28,11 @@ user: Hello. This is Nick.
  assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
  user: Probably a day or 2. 
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
- user: Not a lot of stress related to this. It's your base. 
+ user: Not a lot of stress related to this, zero days. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
  user: I didn't work at all in the last 7 days. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
- user: I mean, excellent help. 
+ user: I'm in excellent health. 
  assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
  user: No. 
  assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 

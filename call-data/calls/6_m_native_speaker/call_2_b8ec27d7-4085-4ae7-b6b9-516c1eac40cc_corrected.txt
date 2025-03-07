@@ -56,7 +56,7 @@ user: Hello?
  assistant: Have you experienced a skin rash in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a cough in the past seven days, or not? 
- user: No cost. 
+ user: No cough. 
  assistant: Have you experienced a sore throat in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced sneezing in the past seven days, or not? 
@@ -64,7 +64,7 @@ user: Hello?
  assistant: Have you experienced muscle or body aches in the past seven days, or not? 
  user: I have experienced some muscle aches. Yes. 
  assistant: Have you experienced headaches in the past seven days, or not? 
- user: No, Felix. 
+ user: No headaches. 
  assistant: I think there might be some confusion, my name is Sarah, and I'm conducting this survey. Can you use a thermometer to take your temperature now? 
  user: No. 
  assistant: That's okay, we can skip that question. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
