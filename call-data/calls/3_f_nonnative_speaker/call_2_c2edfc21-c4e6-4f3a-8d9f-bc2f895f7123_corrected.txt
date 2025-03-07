@@ -18,6 +18,7 @@ user: Hello?
  user: 42,000. 
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
  user: <Cannot be interrupted, user message ignored>
+ user: <Cannot be interrupted, user message ignored>
  assistant: I'm not sure what you mean by K. Could you please tell me what level of education you've completed, such as high school, college, or university? 
  user: High school. 
  assistant: Okay, so you've completed high school. Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 

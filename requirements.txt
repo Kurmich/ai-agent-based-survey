@@ -1,4 +1,6 @@
 evaluate
+jiwer
 requests
 rouge-score
 sacrebleu
+spacy
