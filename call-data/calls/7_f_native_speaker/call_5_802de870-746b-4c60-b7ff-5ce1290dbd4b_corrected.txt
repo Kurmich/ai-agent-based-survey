@@ -8,7 +8,7 @@ user: Hello?
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  user: Asian Indian. 
  assistant: Got it. What was your total household income in two thousand nineteen? 
- user: A 185,000 
+ user: $185,000.
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
  user: Doctorate degree. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
@@ -38,7 +38,7 @@ user: Hello?
  assistant: In the past seven days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? Please provide your answer in number of days. 
  user: 0. 
  assistant: In the past seven days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't work at all? 
- user: It didn't work at all. 
+ user: Didn't work at all. 
  assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
  agent-action: [Waiting] 
  agent-action: [Waiting] 

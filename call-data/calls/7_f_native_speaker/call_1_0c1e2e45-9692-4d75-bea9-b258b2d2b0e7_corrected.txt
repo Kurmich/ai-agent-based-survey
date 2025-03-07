@@ -4,7 +4,7 @@ user: Hello. This is this is Raul.
  assistant: Thank you so much, Raul. To begin, what is your current age? 
  user: I'm 42. 
  assistant: Great, thank you. Are you male or female? 
- user: Mail. 
+ user: Male. 
  assistant: I apologize, Raul, but I didn't quite catch that. Could you please clarify, are you male or female? 
  user: Male. 
  assistant: Thank you, Raul. What race or races do you consider yourself to be? You can mention multiple races if applicable. 

@@ -12,7 +12,7 @@ user: Hello?
  assistant: Thank you for sharing that. What is the highest level of school you have completed? 
  user: 8th grade. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
- user: For adults. 
+ user: 4 adults. 
  assistant: I didn't quite catch that. Could you please repeat or clarify how many persons, including yourself, currently live in your household at least fifty percent of the time? 
  user: 4. 
  assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
