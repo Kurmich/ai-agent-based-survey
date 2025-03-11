@@ -56,6 +56,9 @@ class QA():
     
     def get_response_id(self, response_text):
         return int(self.response_text_to_id[response_text])
+    
+    def has_response(self, response_text):
+        return response_text in self.response_text_to_id
 
     def get_question(self):
         return self.question
@@ -150,18 +153,72 @@ def codebook_to_json(codebook, codebook_file_name = 'codebook.json', remove_web_
         f.write(json.dumps(cb_json))
         
         
+
+def get_codebook_object_from_json(cb_json):
+    codebook = {}
+    for code, content in cb_json.items():  
+        question = content['question']
+        codebook[code] = QA(question)
+        for ans, ans_id in content['clean_response_text_to_id'].items():
+            codebook[code].set_answers(ans_id, ans)
+            
+    return codebook
+        
         
 def get_survey_questionnaire(codebook):
     qa_list = []
     question_count = 1
     for code, content in codebook.items():  
         question = content.get_question()
-        qa_list.append(f"Question {question_count}: {question}\nResponse Options: ")
+        qa_list.append(f"{code} Question {question_count}: {question}\nResponse Options: ")
         ans_list = content.get_response_list()
         qa_list.append('; '.join(ans_list))
         qa_list.append("\n")
         question_count += 1
     return ''.join(qa_list)
+
+
+def convert_textdf_to_numeric_response_df(codebook, survey_df):
+    skip_codes = ['HH01S',
+                 'HH25S',
+                 'HH612S',
+                 'HH1317S',
+                 'HH18OVS',
+                 'PHYS11_TEMP']
+    
+    
+    numeric_survey_df = pd.DataFrame()
+    #get numeric ID of answers for each question in the survey
+    for question_code in survey_df:
+        qa = codebook[question_code]
+        #retrieve numeric ID of the response
+        num_vals = []
+        if question_code in skip_codes:
+            #numeric_survey_df[question_code] = survey_df[question_code].copy()
+            for idx, response_text in survey_df[question_code].items():
+                if pd.isnull(response_text):
+                    print(f"response {idx} for {question_code} is {response_text} assigning 404")
+                    num_vals.append(404)
+                else:
+                    num_vals.append(response_text)
+        else:
+            #print(question_code)
+            #numeric_survey_df[question_code] = survey_df[question_code].apply(qa.get_response_id)
+            for idx, response_text in survey_df[question_code].items():
+                if pd.isnull(response_text):
+                    print(f"response {idx} for {question_code} is {response_text} assigning 404")
+                    num_vals.append(404)
+                elif qa.has_response(response_text):
+                    num_vals.append(qa.get_response_id(response_text))
+                else:
+                    print(f"response {idx} for {question_code} is {response_text}, it is not in codebook, assigning 808")
+                    num_vals.append(808)
+                    
+        numeric_survey_df[question_code] = pd.Series(num_vals)
+                    
+                    
+             
+    return numeric_survey_df
 
 
 #questions = get_questions_list(codebook, ['SOC1',	'SOC2A', 'SOC2B', 'SOC3A',	'SOC3B',	'SOC4A',	'SOC4B',	'PHYS8',	'PHYS1A',	'PHYS1B'])
