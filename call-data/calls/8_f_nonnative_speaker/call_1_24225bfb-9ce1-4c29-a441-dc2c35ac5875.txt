@@ -1,0 +1,86 @@
+user: Hello? 
+ assistant: Hello! My name is Sarah, and I'm conducting a survey to gather information on the impact of COVID-19 on various aspects of people's lives. This survey will help us understand how the pandemic has affected different communities. Your responses will be kept confidential and used for research purposes only. Could I have a few minutes of your time to answer some questions? 
+ user: Sure. 
+ assistant: Thank you so much! To begin, what is your current age? 
+ user: I'm 35 years old. 
+ assistant: Great, thank you. Are you male or female? 
+ user: Email. 
+ assistant: I think there might be some confusion. The question was about your gender, are you male or female? 
+ user: I'm female. 
+ assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
+ user: I'm Chinese. 
+ user: I'm Chinese. 
+ assistant: What was your total household income in two thousand nineteen? 
+ user: It's 69,000 every year. 
+ assistant: Thank you for sharing that. What is the highest level of school you have completed? 
+ user: I complete up to 9th grade. 
+ assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
+ user: There were 3 in my home, including me, my partner, and my 10 year old child. 
+ assistant: And how many persons currently living in your household, including yourself, are zero to one years old? 
+ user: 0 1. 
+ assistant: How many persons currently living in your household, including yourself, are 2-5 years old? 
+ user: 10 years 
+ user: 3. 
+ assistant: How many persons currently living in your household, including yourself, are 6-12 years old? 
+ user: 6, 12 years old. What do you mean? 
+ assistant: You have a 10-year-old child, so that would fall into the 6-12 years old category. So, the answer would be one. How many persons currently living in your household, including yourself, are 13-17 years old? 
+ user: My part no. There's the one. 
+ user: Within that age range. 
+ assistant: I think there might be some confusion. To clarify, how many persons currently living in your household, including yourself, are 13-17 years old? 
+ user: None. 
+ assistant: How many persons currently living in your household, including yourself, are 18 years old or older? 
+ user: 2. 
+ assistant: In the past month, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: A few times a week. 
+ assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
+ user: You mean during the pandemic? 
+ assistant: No, I mean before the pandemic started, so before March first, two thousand twenty. How often did you typically talk with your neighbors during that time? 
+ user: A few times a week. 
+ assistant: In the past 7 days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
+ user: I feel nervous twice and hopeless twice in the past week. 
+ assistant: I apologize, but I only asked about feeling nervous, anxious, or on edge. You mentioned feeling hopeless, we'll get to that later. To confirm, you felt nervous, anxious, or on edge for 2 days in the past 7 days, is that correct? 
+ user: Yes. 
+ assistant: In the past 7 days, how often have you felt depressed? 
+ user: None. 
+ assistant: In the past 7 days, how often have you felt lonely? 
+ user: No. 
+ assistant: In the past 7 days, how often have you felt hopeless about the future? 
+ user: Twice. 
+ assistant: In the past 7 days, how often have you had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart when thinking about your experience with the coronavirus pandemic? 
+ user: I feel some kind of chest caused congestion and have some sneezing. 
+ assistant: I see. Those symptoms can be related to various things. To answer my previous question, you haven't had physical reactions such as sweating, trouble breathing, nausea, or a pounding heart specifically when thinking about the coronavirus pandemic, but you have experienced some other symptoms. Is that correct? 
+ user: Yes. 
+ assistant: In the past 7 days, did you do any work for pay at a job or business? Did you work for someone, were you self-employed, or didn't you work at all? 
+ user: Work for someone. 
+ assistant: Would you say your health in general is excellent, very good, good, fair, or poor? 
+ user: Good. 
+ assistant: Has a doctor or other health care provider ever told you that you have COVID-19? 
+ user: I've never been diagnosed before with COVID 19. 
+ assistant: Has a doctor or other health care provider ever told someone you live with that they have COVID-19? 
+ user: No. 
+ assistant: Have you experienced chills in the past 7 days, or not? 
+ user: Can you say it again? 
+ assistant: Have you experienced chills, which are feelings of coldness, in the past 7 days, yes or no? 
+ user: I have sneezing. Is that count does that count? 
+ assistant: Sneezing is a different symptom. To answer my question, have you experienced chills, or feelings of coldness, in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced a runny or stuffy nose in the past 7 days, or not? 
+ user: Yes. Sneething. 
+ assistant: It sounds like you're saying you have sneezing and possibly a runny or stuffy nose. Have you experienced chest congestion in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced a skin rash in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced a cough in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced a sore throat in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced sneezing in the past 7 days, or not? 
+ user: Yes. 
+ assistant: Have you experienced muscle or body aches in the past 7 days, or not? 
+ user: No. 
+ assistant: Have you experienced headaches in the past 7 days, or not? 
+ user: No. 
+ assistant: Can you use a thermometer to take your temperature now? 
+ user: 97.2. 
+ assistant: Thank you for providing that information. That concludes our survey. Thank you so much for your time and for your valuable responses. Have a great day! 
+ 
