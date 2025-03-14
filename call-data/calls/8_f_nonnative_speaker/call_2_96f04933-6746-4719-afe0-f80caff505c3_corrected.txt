@@ -9,7 +9,7 @@ user: Hello?
  assistant: Thank you. What race or races do you consider yourself to be? You can mention multiple races if applicable. 
  user: Chinese. 
  assistant: What was your total household income in two thousand nineteen? 
- user: 35 1,200. 
+ user: 35,200. 
  assistant: What is the highest level of school you have completed? 
  user: I have an associate degree. 
  assistant: Including yourself, how many persons currently live in your household at least fifty percent of the time? Please include any children as well as adults. 
@@ -29,7 +29,7 @@ user: Hello?
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: Every day, 
  assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
- user: 1 or 2 days filling and the rest are done. 
+ user: 1 or 2 days feeling and the rest are none. 
  assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
  user: 1 or 2 days feeling down. 
  assistant: In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 

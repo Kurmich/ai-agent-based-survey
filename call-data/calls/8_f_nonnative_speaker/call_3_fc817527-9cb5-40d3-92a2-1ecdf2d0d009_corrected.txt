@@ -53,7 +53,7 @@ user: Hello?
  assistant: Have you experienced chest congestion in the past seven days, or not? 
  user: No. 
  assistant: Have you experienced a skin rash in the past seven days, or not? 
- user: You too. 
+ user: No.
  assistant: I think there might have been some confusion. To continue with the survey, have you experienced a skin rash in the past seven days, or not? 
  user: What? 
  user: No. I haven't. 

@@ -28,13 +28,13 @@ user: Hello?
  assistant: During a typical month prior to March first, two thousand twenty, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors? Would you say basically every day, a few times a week, a few times a month, once a month, not at all, or not sure? 
  user: A few times a month. 
  assistant: In the past seven days, how often have you felt nervous, anxious, or on edge? Please provide your answer in number of days. 
- user: Rowdy. 
+ user: Rarely. 
  assistant: I didn't quite catch that. Could you please provide a number of days that you've felt nervous, anxious, or on edge in the past seven days? 
  user: 0. 
  assistant: In the past seven days, how often have you felt depressed? Please provide your answer in number of days. 
  user: Nope. 
  assistant: I'll take that as zero days. In the past seven days, how often have you felt lonely? Please provide your answer in number of days. 
- user: I was in most days last week. 
+ user: I was most days last week. 
  assistant: I'm not sure I understand. Could you please provide a specific number of days that you've felt lonely in the past seven days? 
  user: 5 or 6 days? 
  assistant: In the past seven days, how often have you felt hopeless about the future? Please provide your answer in number of days. 
