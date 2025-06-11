@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Dec 13 13:13:11 2024
-
 @author: kurmanbek
 """
 import pandas as pd
@@ -107,8 +105,6 @@ def get_codebook():
     code = None
     num_questions = 0
     for index, row in codebook_df.iterrows():
-        #print(pd.isna(row['Variable']), row['Variable Label'], row['Value'], vals['Value Label'])
-        #print(row['Value Label'])
         ans_id          = row['Value']
         ans_description = row['Value Label']
         ans_id = int(ans_id) if isinstance(ans_id, (int, float)) and not pd.isna(ans_id) else ans_id
@@ -116,15 +112,10 @@ def get_codebook():
             codebook[code].set_answers(ans_id, ans_description)
         else:
             num_questions += 1
-            #if num_questions >= 8:
-            #    print(codebook[code].question)
             code = row['Variable']
             codebook[code] = QA(row['Variable Label'])
-            #ans_id          = row['Value']
-            #print(ans_id)
-            #if isinstance(ans_id, (int, float)): print(ans_id)
+
             
-            #print(ans_id)
             ans_description = row['Value Label']
             codebook[code].set_answers(ans_id, ans_description) #turn to int?
            
@@ -194,18 +185,19 @@ def convert_textdf_to_numeric_response_df(codebook, survey_df):
         #retrieve numeric ID of the response
         num_vals = []
         if question_code in skip_codes:
-            #numeric_survey_df[question_code] = survey_df[question_code].copy()
             for idx, response_text in survey_df[question_code].items():
-                if pd.isnull(response_text):
+                if pd.isnull(response_text) or response_text == 'REFUSED':
                     print(f"response {idx} for {question_code} is {response_text} assigning 404")
+                    num_vals.append(99)
+                elif response_text == "DON'T KNOW":
+                    num_vals.append(77)
+                elif response_text == 'OTHER':
                     num_vals.append(404)
                 else:
                     num_vals.append(response_text)
         else:
-            #print(question_code)
-            #numeric_survey_df[question_code] = survey_df[question_code].apply(qa.get_response_id)
             for idx, response_text in survey_df[question_code].items():
-                if pd.isnull(response_text):
+                if response_text == 'OTHER':
                     print(f"response {idx} for {question_code} is {response_text} assigning 404")
                     num_vals.append(404)
                 elif qa.has_response(response_text):
@@ -219,14 +211,6 @@ def convert_textdf_to_numeric_response_df(codebook, survey_df):
                     
              
     return numeric_survey_df
-
-
-#questions = get_questions_list(codebook, ['SOC1',	'SOC2A', 'SOC2B', 'SOC3A',	'SOC3B',	'SOC4A',	'SOC4B',	'PHYS8',	'PHYS1A',	'PHYS1B'])
-#print(questions)
-
-#json.dump(codebook, 'cb.json')
-
-#json.dumps(codebook['SOC1'].toJSON())
 
 if __name__ == '__main__':
     codebook = get_codebook()
