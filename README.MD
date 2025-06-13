@@ -1,9 +1,7 @@
 # Automated Survey Collection Using LLM-Based Conversational Agents  
   
 This repository contains the code and data used in a pilot study that explores the use of large language model (LLM)-powered agents to automate survey collection and analysis. The framework for the survey collection process is illustrated in the figure below: 
-![Network architecture](https://github.com/Kurmich/ai-agent-based-survey/blob/master/system_architecture.png)
-  
----  
+![framework architecture](https://github.com/Kurmich/ai-agent-based-survey/blob/main/system_architecture.png) 
   
 ## Framework Overview  
   
@@ -24,7 +22,6 @@ The survey collection system integrates several key components:
 5. **REDCap Database**    
    - Stores survey results for further use.    
   
---- 
 
 ---
   
@@ -32,9 +29,6 @@ The survey collection system integrates several key components:
   
 For an example of how the survey collection and analysis process works, refer to **`survey_demo.ipynb`**. 
 This notebook demonstrates step-by-step survey collection  process.  
-  
---- 
-
 
 --- 
  
@@ -51,4 +45,3 @@ This repository includes the following notebooks for key stages of the study:
 - **`output_analyzer.ipynb`**    
   Computes the accuracy of survey responses deduced by reasoning LLM (GPT-4o).    
   
---- 
