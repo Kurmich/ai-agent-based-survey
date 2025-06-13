@@ -1,0 +1,66 @@
+Question 1: What is your current age?
+Response 1: 45-54
+Question 2: Are you male or female?
+Response 2: Female
+Question 3: What race or races you consider yourself to be? You can say multiple races.
+Response 3: REFUSED
+Question 4: What was your total HOUSEHOLD income in 2019?
+Response 4: $100,000 to under $150,000
+Question 5: What is the highest level of school you have completed?
+Response 5: 1st, 2nd, 3rd, or 4th grade
+Question 6: Including yourself, how many persons currently live in your household at least 50 percent of the time? Please include any children as well as adults.
+Response 6: Five persons
+Question 7: How many persons currently living in your household, including yourself, are 0-1 years old?
+Response 7: 0
+Question 8: How many persons currently living in your household, including yourself, are 2-5 years old?
+Response 8: 0
+Question 9: How many persons currently living in your household, including yourself, are 6-12 years old?
+Response 9: 0
+Question 10: How many persons currently living in your household, including yourself, are 13-17 years old?
+Response 10: 0
+Question 11: How many persons currently living in your household, including yourself, are 18+ years old?
+Response 11: 5
+Question 12: In the past month, how often did you talk with any of your neighbors?
+Response 12: A few times a week
+Question 13: During a typical month prior to March 1, 2020, when COVID-19 began spreading in the United States, how often did you talk with any of your neighbors?
+Response 13: A few times a month
+Question 14: In the past 7 days, how often have you felt nervous, anxious, or on edge?
+Response 14: Not at all or less than 1 day
+Question 15: In the past 7 days, how often have you felt depressed?
+Response 15: Not at all or less than 1 day
+Question 16: In the past 7 days, how often have you felt lonely?
+Response 16: 5-7 days
+Question 17: In the past 7 days, how often have you felt hopeless about the future?
+Response 17: Not at all or less than 1 day
+Question 18: In the past 7 days, how often have you had physical reactions such as sweating, trouble breathing, nausea or a pounding heart when thinking about your experience with the coronavirus pandemic?
+Response 18: Not at all or less than 1 day
+Question 19: In the past 7 days, did you do any work for pay at a job or business?
+Response 19: No, I did not work for pay last week
+Question 20: Would you say your health in general is excellent, very good, good, fair, or poor?
+Response 20: Very good
+Question 21: Has a doctor or other health care provider ever told you that you have COVID-19?
+Response 21: No
+Question 22: Has a doctor or other health care provider ever told someone you live with that they have COVID-19?
+Response 22: No
+Question 23: Have you experienced chills in the past 7 days, or not?
+Response 23: No
+Question 24: Have you experienced runny or stuffy nose in the past 7 days, or not?
+Response 24: No
+Question 25: Have you experienced chest congestion in the past 7 days, or not?
+Response 25: No
+Question 26: Have you experienced skin rash in the past 7 days, or not?
+Response 26: No
+Question 27: Have you experienced cough in the past 7 days, or not?
+Response 27: No
+Question 28: Have you experienced sore throat in the past 7 days, or not?
+Response 28: No
+Question 29: Have you experienced sneezing in the past 7 days, or not?
+Response 29: Yes
+Question 30: Have you experienced muscle or body aches in the past 7 days, or not?
+Response 30: No
+Question 31: Have you experienced headaches in the past 7 days, or not?
+Response 31: No
+Question 32: Can you use a thermometer to take your temperature now?
+Response 32: Yes
+Question 33: What is your body temperature?
+Response 33: 99.9
