@@ -4,7 +4,6 @@
 @author: kurmanbek
 """
 import pandas as pd
-import numpy as np
 import json
 import copy
 
@@ -13,7 +12,7 @@ codebook_file = './associatedpress-covid-impact-survey-public-data/COVID survey 
 
 
 
-
+#utility class for stording codebook
 class QA():
     def __init__(self, question):
         self.question = question
@@ -170,24 +169,23 @@ def get_survey_questionnaire(codebook):
 
 
 def convert_textdf_to_numeric_response_df(codebook, survey_df):
-    skip_codes = ['HH01S',
-                 'HH25S',
-                 'HH612S',
-                 'HH1317S',
-                 'HH18OVS',
-                 'PHYS11_TEMP']
+    #convert text responses to correspoding numeric codes for each response
+    
+    #question codes with expected numeric response
+    numeric_codes = ['HH01S','HH25S', 'HH612S', 'HH1317S', 'HH18OVS', 'PHYS11_TEMP']
     
     
-    numeric_survey_df = pd.DataFrame()
+    numeric_survey_df = pd.DataFrame() #resulting dataframe with numeric values
+    
     #get numeric ID of answers for each question in the survey
     for question_code in survey_df:
         qa = codebook[question_code]
         #retrieve numeric ID of the response
-        num_vals = []
-        if question_code in skip_codes:
+        num_vals = [] #list to store numeric values for current question
+        
+        if question_code in numeric_codes:
             for idx, response_text in survey_df[question_code].items():
                 if pd.isnull(response_text) or response_text == 'REFUSED':
-                    print(f"response {idx} for {question_code} is {response_text} assigning 404")
                     num_vals.append(99)
                 elif response_text == "DON'T KNOW":
                     num_vals.append(77)
@@ -198,7 +196,7 @@ def convert_textdf_to_numeric_response_df(codebook, survey_df):
         else:
             for idx, response_text in survey_df[question_code].items():
                 if response_text == 'OTHER':
-                    print(f"response {idx} for {question_code} is {response_text} assigning 404")
+                    #print(f"response {idx} for {question_code} is {response_text} assigning 404")
                     num_vals.append(404)
                 elif qa.has_response(response_text):
                     num_vals.append(qa.get_response_id(response_text))

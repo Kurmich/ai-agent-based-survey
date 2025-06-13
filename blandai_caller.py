@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: kaiyrbekovk2
+@author: Kurmanbek
 """
 
 import requests
@@ -9,16 +9,19 @@ import os
 from dotenv import load_dotenv
 import json 
 from datetime import datetime
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
 API_KEY = os.getenv('BLANDAI_API_KEY')
-PHONE_NUMBER = os.getenv("PHONE_NUMBER")
+#PHONE_NUMBER = os.getenv("PHONE_NUMBER")
 
 
 def send_call(task_prompt, phone_number, conversational_model = "base"):
+    #send a call with a given task prompt to the phone number
     url = "https://api.bland.ai/v1/calls"
     payload = {
-        "phone_number": PHONE_NUMBER,
+        "phone_number": phone_number,
         "task": task_prompt,
         "voice": "Allie",
         "wait_for_greeting": True,
@@ -39,12 +42,17 @@ def send_call(task_prompt, phone_number, conversational_model = "base"):
     }
 
 
-    response = requests.request("POST", url, json=payload, headers=headers, verify=False)
-    call_id = json.loads(response.text)["call_id"]
-    return call_id
+    response = requests.request("POST", url, json=payload, headers=headers, verify=False) #
+    response_dict = json.loads(response.text)
+    if response_dict["status"] == "error":
+        print(response_dict["message"])
+        return None
+ 
+    return response_dict["call_id"]
 
 
 def retrieve_and_save_transcripts(participant_id, call_ids, blandai_data_dir = './blandai-data'):
+    #get transcripts from bland for call ids and save to file (this method was developed for study with multiple personas per participant)
     headers = {
         "authorization": API_KEY,
     }
